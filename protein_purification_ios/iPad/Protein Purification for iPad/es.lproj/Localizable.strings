@@ -1,0 +1,220 @@
+/*
+  Localizable.strings
+  Protein Purification
+*/
+
+"Program Title" = "Purificación de Proteínas";
+"Program Author" = "Andrew Booth\n\nFacultad de Ciencias Biológicas\nUniversidad de Leeds\nReino Unido\n\nVersion español\ntraducida por\nMarcelo Garcés C\nUniversidad de La Frontera\nChile";
+"Help" = "Ayuda";
+"Start" = "Comienzo";
+"Purify" = "Purificar";
+
+"Mixtures" = "Mezclas";
+"Available mixtures" = "Mezclas disponibles";
+"Change mixture" = "Cambiar la mezcla";
+"Choose a mixture" = "Escoger una mezcla";
+"Choose a mixture..." = "Escoger una mezcla...";
+"Choose a protein" = "Escoger una proteína";
+"Protein" = "Proteína";
+"This mixture contains..." = "Esta mezcla contiene %d proteínas. Escoja la que Ud. desee purificar.";
+
+"Yes" = "Si";
+"No" = "No";
+"OK" = "OK";
+"Done" = "OK";
+"Cancel" = "Cancelar";
+"Choose" = "Escoger";
+"Stability" = "Estabilidad";
+"Stability Data" = "La actividad enzimática de la proteína %d es estable por varias horas a una temperatura de hasta %.0f°C y a valores de pH entre %.1f y %.1f.";
+
+// Main Menu
+
+"Methods" = "Métodos";
+
+"Separation methods" = "Métodos de separación";
+"Electrophoresis" = "Electroforesis";
+"Manage fractions" = "Manejar las fracciones";
+"Manage scheme" = "Manejar el procedimiento";
+
+"Ammonium sulfate fractionation" = "Fraccionamiento por sulfato de amonio";
+"Heat treatment" = "Tratamiento con calor";
+"Gel filtration" = "Filtración por gel";
+"Ion exchange chromatography" = "Cromatografía de intercambio iónico";
+"Hydrophobic interaction chromatography" = "Cromatografía de interacción hidrofóbica";
+"Affinity chromatography" = "Cromatografía de afinidad";
+
+"1-dimensional PAGE" = "PAGE en una dimension";
+"2-dimensional PAGE" = "PAGE en dos dimensiones";
+
+"Assay enzyme activity" = "Ensayar la actividad enzimática";
+"Dilute fractions x2" = "Diluir fracciones x2";
+"Pool fractions" = "Combinar fracciones";
+
+"Abandon this step and continue" = "Abandonar esta etapa y continuar";
+"Abandon scheme and start again" = "Abandonar y comenzar nuevamente";
+"Abandon scheme" = "Abandonar experimento";
+"Abandon warning" = "Ud. está seguro que quiere hacer eso?\n\nLos datos del diseño actual se perderán.";
+"Abandon step" = "Abandonar etapa";
+"Abandon step warning" = "Ud. está seguro que quiere hacer eso?\n\n Los datos de la etapa actual se perderán.";
+
+"Media" = "Media";
+"Information" = "Información";
+
+// Gel Filtration Menu
+
+"Gel Filtration" = "Filtración por gel";
+"Sephadex G-50" = "Sephadex G-50";
+"Sephadex G-100" = "Sephadex G-100";
+"Sephacryl S-200 HR" = "Sephacryl S-200 HR";
+"Ultrogel AcA 54" = "Ultrogel AcA 54";
+"Ultrogel AcA 44" = "Ultrogel AcA 44";
+"Ultrogel AcA 34" = "Ultrogel AcA 34";
+"Bio-Gel P-60" = "Bio-Gel P-60";
+"Bio-Gel P-150" = "Bio-Gel P-150";
+"Bio-Gel P-300" = "Bio-Gel P-300";
+
+
+// Ion Exchange Menu
+"DEAE-cellulose" = "DEAE-cellulose";
+"CM-cellulose" = "CM-cellulose";
+"Q-Sepharose" = "Q-Sepharose";
+"S-Sepharose" = "S-Sepharose";
+"salt gradient" = "sal gradiente";
+"pH gradient" = "pH gradiente";
+
+// HIC menu
+"Hydrophobic interaction" = "Interaction hidrofóbica";
+"Remember to elute with a gradient of decreasing salt concentration." = "Recuerde eluir con un gradiente de concentración decreciente de sal.";
+"Phenyl-Sepharose CL-4B" = "Phenyl-Sepharose CL-4B";
+"Octyl-Sepharose CL-4B" = "Octyl-Sepharose CL-4B";
+
+// Affinity chromatography menus
+"Ligand" = "Ligando";
+"Immobilized monoclonal antibody MC01A" = "Anticuerpo monoclonal immobilizado MC%.2dA";
+"Immobilized monoclonal antibody MC01B" = "Anticuerpo monoclonal immobilizado MC%.2dB";
+"Immobilized monoclonal antibody MC01C" = "Anticuerpo monoclonal immobilizado MC%.2dC";
+"Immobilized polyclonal IgG" = "IgG policlonal immobilizado";
+"Immobilized competitive inhibitor" = "Inhibidor competitivo immobilizado";
+"immobilized monoclonal antibody MC01A" = "anticuerpo monoclonal immobilizado MC%.2dA";
+"immobilized monoclonal antibody MC01B" = "anticuerpo monoclonal immobilizado MC%.2dB";
+"immobilized monoclonal antibody MC01C" = "anticuerpo monoclonal immobilizado MC%.2dC";
+"immobilized polyclonal IgG" = "IgG policlonal immobilizado";
+"immobilized competitive inhibitor" = "inhibidor competitivo immobilizado";
+"Ni-NTA agarose" = "Ni-NTA agarose";
+"150mM-imidazole, 300mM-NaCl pH 7.0" = "Imidazol 150mM, NaCl 300mM, pH 7.0";
+
+"Elution" = "Élución";
+"Elute with:" = "Eluir con:";
+"2mM-Tris/HCl pH 7.4" = "Tris/HCl 2mM, pH 7.4";
+"0.2M-glycine/HCl pH 2.3" = "Glicina/HCl 0.2M, pH 2.3";
+"5mM-competitive inhibitor" = "inhibidor competitivo 5mM";
+
+// GetGradient items
+"Equilibration" = "Equilibración";
+"pH of buffer:" = "pH de buffer:";
+"Gradient limits (molar)" = "Limites de gradiente (molar)";
+"Gradient limits (pH)" = "Limites de gradiente (pH)";
+"Start of gradient:" = "Inicio del gradiente:";
+"End of gradient:" = "Fin del gradiente:";
+
+// Precipitation warnings
+
+"Precipitate" = "Precipitado";
+"Precipitation Warning 1" = "La actividad de su enzima no ha sido afectada, perp %.1f%% de la proteína ha precipitado en el buffer de inicio.\n\nDescartar el precipitado y continuar?";
+"Precipitation Warning 2" ="%.1f%% de la actividad enzimática y %.1f%% de la proteína han precipitado en el buffer de inicio.\n\nDescartar el precipitado y continuar?";
+
+// Step record
+"Initial" = "Inicial";
+"Ammonium sulfate" = "Sulfato de amonio";
+"Ion exchange" = "Intercambio iónico";
+"Method" = "Método";
+"Protein (mg)" = "Proteína (mg)";
+"Enzyme (Units)" = "Enzima (Unidades)";
+"Yield (%)" = "    (%)";
+"Enrichment" = "Purificación";
+"Cost" = "Costo";
+"Records of subsequent purification steps will be added here." = "Registros de purificaciones siguientes serán grabadas aquí.";
+
+// Progress report
+"Progress report" = "Informe de situación";
+"Purification of protein %d from %@" = "Purificación de la proteína %d de %@";
+"RecordTitle" = "Luego de la etapa %d:";
+"Total protein\nTotal enzyme\nEnrichment\nYield\nCost (hours/100 Units)" = "Proteína total\nEnzima total\nEnriquecimiento\nRendimiento\nCosto (horas/100 U)";
+"%.d mg\n%d units\n%.1f\n%.1f%%\n%.3f" = "%.d mg\n%d U\n%.1f\n%.1f%%\n%.3f";
+"Total protein: %.d mg\nTotal enzyme: %d Units\nEnrichment: %.1f\nYield: %.1f%%\nCost: %.3f hours/100 Units" = "Proteína total: %.d mg\nEnzima total: %d U\nEnriquecimiento: %.1f\nRendimiento: %.1f%%\nCosto: %.3f horas/100 U";
+
+// Elution profile
+"Elution profile" = "Perfil de elución";
+"Absorbance at 280 nm" = "Absorbancia a 280 nm";
+"Enzyme activity (Units/fraction)" = "Actividad de la enzima (Unidades/fracción)";
+"Fraction number" = "Fracción no.";
+"%@ on %@" = "%@ - %@";
+"Salt concentration (molar)" = "Concentración de sal (molar)";
+"pH" = "pH";
+
+// Pool fractions
+"First fraction" = "Primera fracción";
+"Last fraction" = "Última fracción";
+
+// Affinity chromatography
+"Sorry" = "Perdon";
+"Apology" = "Aunque existen inhibidores competitivos para la enzima que trata de purificar,ninguno puede ser inmobilizado con los métodos actuales.";
+"(Elution buffer emerges at fraction 40)" = "(El buffer de elución eluye en la fracción 40)";
+
+// Ammonium sulphate
+"Percentage saturation" = "Porcentaje de saturación";
+"AS Precipitation Question" = "Usted ha precipitado\n%.1f%% de la enzima y\n%.1f%% de la proteína.\n\nComo quiere proceder?";
+"Use the precipitated material" = "Utilizar el precipitado";
+"Use the soluble material" = "Utilizar el sobrenadante";
+
+// Heat treatment
+"What temperature? (°C)" = "Que temperatura? (°C)";
+"For how long? (minutes)" = "Por cuanto tiempo? (minutos)";
+
+// Oops
+"You have lost the enzyme!" = "Usted ha perdido la enzima!";
+"Not finished after 10 steps..." = "No terminado luego de 10 etapas...";
+"Cost is too high!" = "El costo es muy alto!";
+"Financial advisers" = "Un mensaje de nuestro administrador financiero:\n\n\"Nosotros no podemos financiar más su trabajo ineficiente. Usted está despedido.\"\n\n De todas maneras,el director científicoha intercedido por usted. Si usted nos asegura de va a trabajar de manera más eficiente, puede ser reintegrado. Usted acepta esta oferta?";
+"Grateful acceptance" = "Si";
+
+// Electrophoresis
+"Coomassie Blue" = "Azul de Coomassie";
+"Immunoblot" = "Western Blot";
+"Using antibody to protein %d" = "Uso de anticuerpo a proteína %d";
+"2D - PAGE" = "PAGE - 2D";
+"2D - PAGE of initial mixture" = "PAGE - 2D de la mezcla inicial";
+"2D - PAGE of pooled fractions" = "PAGE - 2D de las fracciones agrupadas";
+"2D - PAGE of fraction %d" = "PAGE - 2D de la fracción %d";
+"Select fraction to examine" = "Seleccione fracción\na examinar.";
+"Fraction" = "Fracción";
+"1D - PAGE" = "PAGE - 1D";
+"Initial mixture" = "Mezcla inicial";
+"Pooled fractions" = "Fracciones agrupadas";
+"Selected fraction" = "Fracción seleccionada";
+"Selected fractions" = "Fracciones seleccionadas";
+"You can select up\nto 15 fractions." = "Usted puede seleccionar\nhasta 15 fracciones.";
+"You have added\none fraction." = "Usted ha agregado\nuna fracción.";
+"You have added\n%d fractions." = "Usted ha agregado\n%d fracciones.";
+"Add" = "Agregar";
+
+// Coldroom
+"Store your material" = "Guardar su material";
+"Store material" = "Material guardado";
+"Please enter a unique name for the stored material." = "Por favor digite un monbre único para el material guardado.";
+"Can't store the material." = "No se puede guardar el material.";
+"A mixture with this name exists.\nDo you want to replace it?" = "Una mezcla con este nombre existe.\nla quiere reemplazar?";
+"Start from stored material" = "Comenzar a partir de material guardado";
+"You have no stored mixtures." = "Usted no tiene mezclas guardadas.";
+"Choose a stored mixture" = "Escoger una mezcla guardada.";
+"Refrigerator" = "Refrigerador";
+"Stored mixtures" = "Mezclas Guardadas";
+"Stored mixtures are accessible via the apps tab in iTunes." = "Mezclas guardadas son accesibles via la sección apps en iTunes.";
+"This mixture has a purification history. Do you want to continue it?" = "Esta mezcla tiene una historia de purificación. Usted desea continuar?";
+"This mixture contains no proteins." = "Esta mezcla no contiene proteínas.";
+"Error in mixture file." = "Error en el archivo de mezcla.";
+
+// Tutorial
+"http://www.agbooth.com/pp_tut_iPad" = "http://www.agbooth.com/pp_tut_iPad";
+
+
