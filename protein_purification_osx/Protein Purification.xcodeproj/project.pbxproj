@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		451A688F17C8DFBE0091CCDE /* pp_GelFiltController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A688E17C8DFBE0091CCDE /* pp_GelFiltController.m */; };
+		451A689217C8DFE60091CCDE /* pp_GelFiltController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451A689017C8DFE60091CCDE /* pp_GelFiltController.xib */; };
+		451A68AF17C8E37C0091CCDE /* pp_ElutionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A68AE17C8E37C0091CCDE /* pp_ElutionView.m */; };
+		451A68F917C8E91E0091CCDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451A68F817C8E91E0091CCDE /* QuartzCore.framework */; };
+		451A690817C8F07C0091CCDE /* pp_GetPoolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A690617C8F07C0091CCDE /* pp_GetPoolController.m */; };
+		451A690917C8F07C0091CCDE /* pp_GetPoolController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451A690717C8F07C0091CCDE /* pp_GetPoolController.xib */; };
+		451A692117C8F4AF0091CCDE /* pp_IonExController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A692017C8F4AF0091CCDE /* pp_IonExController.m */; };
+		451A692417C8F4C60091CCDE /* pp_IonExController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451A692217C8F4C60091CCDE /* pp_IonExController.xib */; };
+		451A694417C8F6570091CCDE /* pp_GetPHController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A694317C8F6570091CCDE /* pp_GetPHController.m */; };
+		451A694717C8F6700091CCDE /* pp_GetPHController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451A694517C8F6700091CCDE /* pp_GetPHController.xib */; };
+		451A696117C8F7C30091CCDE /* pp_GetGradientController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A695F17C8F7C30091CCDE /* pp_GetGradientController.m */; };
+		451A696217C8F7C30091CCDE /* pp_GetGradientController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451A696017C8F7C30091CCDE /* pp_GetGradientController.xib */; };
+		451A697217C8F9EF0091CCDE /* pp_GetHICController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A697117C8F9EF0091CCDE /* pp_GetHICController.m */; };
+		451A697517C8FA0D0091CCDE /* pp_GetHICController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451A697317C8FA0D0091CCDE /* pp_GetHICController.xib */; };
+		451A698C17C8FC620091CCDE /* pp_AffinityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A698A17C8FC620091CCDE /* pp_AffinityController.m */; };
+		451A698D17C8FC620091CCDE /* pp_AffinityController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451A698B17C8FC620091CCDE /* pp_AffinityController.xib */; };
+		456B279317C7A764006201BD /* pp_HeatDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 456B279217C7A764006201BD /* pp_HeatDialogController.m */; };
+		456B279617C7A796006201BD /* pp_HeatDialogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 456B279417C7A796006201BD /* pp_HeatDialogController.xib */; };
+		456B27CE17C7AA43006201BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 456B27CC17C7AA43006201BD /* InfoPlist.strings */; };
+		456B290B17C7B3E3006201BD /* Help in Resources */ = {isa = PBXBuildFile; fileRef = 456B28F317C7B3E3006201BD /* Help */; };
+		459FA5C917CA33D5001DCA52 /* pp_GelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 459FA5C817CA33D5001DCA52 /* pp_GelView.m */; };
+		45B8B32E17C4B802000FEA12 /* Complex Mixture.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45B8B32A17C4B802000FEA12 /* Complex Mixture.txt */; };
+		45B8B32F17C4B802000FEA12 /* Default Mixture.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45B8B32B17C4B802000FEA12 /* Default Mixture.txt */; };
+		45B8B33017C4B802000FEA12 /* Easy3 Mixture.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45B8B32C17C4B802000FEA12 /* Easy3 Mixture.txt */; };
+		45B8B33117C4B802000FEA12 /* Example Mixture.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45B8B32D17C4B802000FEA12 /* Example Mixture.txt */; };
+		45B8B35817C4BC46000FEA12 /* icons.icns in Resources */ = {isa = PBXBuildFile; fileRef = 45B8B35717C4BC46000FEA12 /* icons.icns */; };
+		45B8B36717C4BD15000FEA12 /* pp_Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8B35D17C4BD15000FEA12 /* pp_Account.m */; };
+		45B8B36817C4BD15000FEA12 /* pp_Commands.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8B35F17C4BD15000FEA12 /* pp_Commands.m */; };
+		45B8B36917C4BD15000FEA12 /* pp_Protein.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8B36117C4BD15000FEA12 /* pp_Protein.m */; };
+		45B8B36A17C4BD15000FEA12 /* pp_ProteinData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8B36317C4BD15000FEA12 /* pp_ProteinData.m */; };
+		45B8B36B17C4BD15000FEA12 /* pp_Separation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8B36517C4BD15000FEA12 /* pp_Separation.m */; };
+		45B8B37E17C4BD98000FEA12 /* pp_TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8B37C17C4BD98000FEA12 /* pp_TextField.m */; };
+		45B8B38317C4BDC3000FEA12 /* pp_StepRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8B38217C4BDC3000FEA12 /* pp_StepRecord.m */; };
+		45B8B3B017C4C387000FEA12 /* pp_GetMixtureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8B3AF17C4C387000FEA12 /* pp_GetMixtureController.m */; };
+		45B8B3B717C4C4AC000FEA12 /* pp_GetMixtureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45B8B3B517C4C4AC000FEA12 /* pp_GetMixtureController.xib */; };
+		45B8B40617C4CB0D000FEA12 /* pp_GetProteinController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8B40517C4CB0D000FEA12 /* pp_GetProteinController.m */; };
+		45B8B40917C4CB5A000FEA12 /* pp_GetProteinController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45B8B40717C4CB5A000FEA12 /* pp_GetProteinController.xib */; };
+		45B8B42317C4CDFA000FEA12 /* pp_RecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B8B42017C4CDFA000FEA12 /* pp_RecordView.m */; };
+		45DE507F17C3A59300A99E81 /* pp_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE507E17C3A59300A99E81 /* pp_AppDelegate.m */; };
+		45DE508217C3A5CE00A99E81 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45DE508017C3A5CE00A99E81 /* MainMenu.xib */; };
+		45DE50CC17C3AA9A00A99E81 /* pp_SplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DE50C817C3AA9A00A99E81 /* pp_SplashView.m */; };
+		45DE514017C3B71B00A99E81 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45DE513E17C3B71B00A99E81 /* Localizable.strings */; };
+		45E0864D17CA37C80072F22A /* pp_GetFractionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E0864B17CA37C80072F22A /* pp_GetFractionsController.m */; };
+		45E0864E17CA37C80072F22A /* pp_GetFractionsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E0864C17CA37C80072F22A /* pp_GetFractionsController.xib */; };
+		45E0865A17CA3B0D0072F22A /* pp_GetFractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E0865817CA3B0D0072F22A /* pp_GetFractionController.m */; };
+		45E0865B17CA3B0D0072F22A /* pp_GetFractionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E0865917CA3B0D0072F22A /* pp_GetFractionController.xib */; };
+		45F65BB217C510E700579E8E /* pp_ASDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F65BB117C510E700579E8E /* pp_ASDialogController.m */; };
+		45F65BB517C5110E00579E8E /* pp_ASDialogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F65BB317C5110E00579E8E /* pp_ASDialogController.xib */; };
+		45F65BBA17C5131000579E8E /* pp_ASChoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F65BB917C5131000579E8E /* pp_ASChoiceController.m */; };
+		45F65BBD17C5133300579E8E /* pp_ASChoiceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F65BBB17C5133300579E8E /* pp_ASChoiceController.xib */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		256AC3F00F4B6AF500CF3369 /* Protein_Purification_XCode_3_2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protein_Purification_XCode_3_2_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		450F758517C668400097FAB1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/pp_ASDialogController.xib; sourceTree = "<group>"; };
+		450F758617C6685B0097FAB1 /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = id.lproj/pp_ASDialogController.xib; sourceTree = "<group>"; };
+		450F758717C6687D0097FAB1 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/pp_GetMixtureController.xib; sourceTree = "<group>"; };
+		450F758817C668970097FAB1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/pp_GetMixtureController.xib; sourceTree = "<group>"; };
+		450F758917C668B40097FAB1 /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = id.lproj/pp_GetMixtureController.xib; sourceTree = "<group>"; };
+		450F758A17C668D40097FAB1 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/pp_GetProteinController.xib; sourceTree = "<group>"; };
+		450F758B17C668EA0097FAB1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/pp_GetProteinController.xib; sourceTree = "<group>"; };
+		450F758C17C6690F0097FAB1 /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = id.lproj/pp_GetProteinController.xib; sourceTree = "<group>"; };
+		451A688D17C8DFBE0091CCDE /* pp_GelFiltController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_GelFiltController.h; sourceTree = "<group>"; };
+		451A688E17C8DFBE0091CCDE /* pp_GelFiltController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_GelFiltController.m; sourceTree = "<group>"; };
+		451A689117C8DFE60091CCDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pp_GelFiltController.xib; sourceTree = "<group>"; };
+		451A689317C8E0020091CCDE /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/pp_GelFiltController.xib; sourceTree = "<group>"; };
+		451A689417C8E0230091CCDE /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/pp_GelFiltController.xib; sourceTree = "<group>"; };
+		451A689517C8E0380091CCDE /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = id.lproj/pp_GelFiltController.xib; sourceTree = "<group>"; };
+		451A68AD17C8E37C0091CCDE /* pp_ElutionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_ElutionView.h; sourceTree = "<group>"; };
+		451A68AE17C8E37C0091CCDE /* pp_ElutionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_ElutionView.m; sourceTree = "<group>"; };
+		451A68F817C8E91E0091CCDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		451A690517C8F07C0091CCDE /* pp_GetPoolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_GetPoolController.h; sourceTree = "<group>"; };
+		451A690617C8F07C0091CCDE /* pp_GetPoolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_GetPoolController.m; sourceTree = "<group>"; };
+		451A690717C8F07C0091CCDE /* pp_GetPoolController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pp_GetPoolController.xib; sourceTree = "<group>"; };
+		451A691F17C8F4AF0091CCDE /* pp_IonExController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_IonExController.h; sourceTree = "<group>"; };
+		451A692017C8F4AF0091CCDE /* pp_IonExController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_IonExController.m; sourceTree = "<group>"; };
+		451A692317C8F4C60091CCDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pp_IonExController.xib; sourceTree = "<group>"; };
+		451A692517C8F4E10091CCDE /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/pp_IonExController.xib; sourceTree = "<group>"; };
+		451A692617C8F4F80091CCDE /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/pp_IonExController.xib; sourceTree = "<group>"; };
+		451A692717C8F50E0091CCDE /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = id.lproj/pp_IonExController.xib; sourceTree = "<group>"; };
+		451A694217C8F6570091CCDE /* pp_GetPHController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_GetPHController.h; sourceTree = "<group>"; };
+		451A694317C8F6570091CCDE /* pp_GetPHController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_GetPHController.m; sourceTree = "<group>"; };
+		451A694617C8F6700091CCDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pp_GetPHController.xib; sourceTree = "<group>"; };
+		451A694817C8F6860091CCDE /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/pp_GetPHController.xib; sourceTree = "<group>"; };
+		451A694917C8F69B0091CCDE /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/pp_GetPHController.xib; sourceTree = "<group>"; };
+		451A694A17C8F6B10091CCDE /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = id.lproj/pp_GetPHController.xib; sourceTree = "<group>"; };
+		451A695E17C8F7C30091CCDE /* pp_GetGradientController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_GetGradientController.h; sourceTree = "<group>"; };
+		451A695F17C8F7C30091CCDE /* pp_GetGradientController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_GetGradientController.m; sourceTree = "<group>"; };
+		451A696017C8F7C30091CCDE /* pp_GetGradientController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pp_GetGradientController.xib; sourceTree = "<group>"; };
+		451A697017C8F9EF0091CCDE /* pp_GetHICController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_GetHICController.h; sourceTree = "<group>"; };
+		451A697117C8F9EF0091CCDE /* pp_GetHICController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_GetHICController.m; sourceTree = "<group>"; };
+		451A697417C8FA0D0091CCDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pp_GetHICController.xib; sourceTree = "<group>"; };
+		451A697617C8FA340091CCDE /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/pp_GetHICController.xib; sourceTree = "<group>"; };
+		451A697717C8FA460091CCDE /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/pp_GetHICController.xib; sourceTree = "<group>"; };
+		451A697817C8FA5F0091CCDE /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = id.lproj/pp_GetHICController.xib; sourceTree = "<group>"; };
+		451A697917C8FA8C0091CCDE /* pp_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_AppDelegate.h; sourceTree = "<group>"; };
+		451A698917C8FC620091CCDE /* pp_AffinityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_AffinityController.h; sourceTree = "<group>"; };
+		451A698A17C8FC620091CCDE /* pp_AffinityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_AffinityController.m; sourceTree = "<group>"; };
+		451A698B17C8FC620091CCDE /* pp_AffinityController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pp_AffinityController.xib; sourceTree = "<group>"; };
+		456B279117C7A764006201BD /* pp_HeatDialogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_HeatDialogController.h; sourceTree = "<group>"; };
+		456B279217C7A764006201BD /* pp_HeatDialogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_HeatDialogController.m; sourceTree = "<group>"; };
+		456B279517C7A796006201BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pp_HeatDialogController.xib; sourceTree = "<group>"; };
+		456B279717C7A7C4006201BD /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/pp_HeatDialogController.xib; sourceTree = "<group>"; };
+		456B279817C7A7DA006201BD /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/pp_HeatDialogController.xib; sourceTree = "<group>"; };
+		456B279917C7A7EA006201BD /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = id.lproj/pp_HeatDialogController.xib; sourceTree = "<group>"; };
+		456B27CD17C7AA43006201BD /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		456B27CF17C7AA5F006201BD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		456B27D017C7AA80006201BD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		456B27D117C7AA98006201BD /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		456B28F417C7B3E3006201BD /* en */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en; path = en.lproj/Help; sourceTree = "<group>"; };
+		456B290C17C7B3FC006201BD /* es */ = {isa = PBXFileReference; lastKnownFileType = folder; name = es; path = es.lproj/Help; sourceTree = "<group>"; };
+		456B292217C7B40D006201BD /* fr */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fr; path = fr.lproj/Help; sourceTree = "<group>"; };
+		456B293917C7B417006201BD /* id */ = {isa = PBXFileReference; lastKnownFileType = folder; name = id; path = id.lproj/Help; sourceTree = "<group>"; };
+		459FA5C717CA33D5001DCA52 /* pp_GelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_GelView.h; sourceTree = "<group>"; };
+		459FA5C817CA33D5001DCA52 /* pp_GelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_GelView.m; sourceTree = "<group>"; };
+		45B6BD1517C665CD00C88080 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		45B6BD1617C665F400C88080 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		45B6BD1717C6660F00C88080 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		45B6BD1817C6663600C88080 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		45B6BD1917C6665300C88080 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		45B6BD1A17C6666E00C88080 /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = id.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		45B6BD1B17C666B100C88080 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/pp_ASChoiceController.xib; sourceTree = "<group>"; };
+		45B6BD1C17C666E500C88080 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/pp_ASChoiceController.xib; sourceTree = "<group>"; };
+		45B6BD1D17C6670600C88080 /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = id.lproj/pp_ASChoiceController.xib; sourceTree = "<group>"; };
+		45B6BD1E17C6672C00C88080 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/pp_ASDialogController.xib; sourceTree = "<group>"; };
+		45B8B32A17C4B802000FEA12 /* Complex Mixture.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Complex Mixture.txt"; sourceTree = "<group>"; };
+		45B8B32B17C4B802000FEA12 /* Default Mixture.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Default Mixture.txt"; sourceTree = "<group>"; };
+		45B8B32C17C4B802000FEA12 /* Easy3 Mixture.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Easy3 Mixture.txt"; sourceTree = "<group>"; };
+		45B8B32D17C4B802000FEA12 /* Example Mixture.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Example Mixture.txt"; sourceTree = "<group>"; };
+		45B8B35717C4BC46000FEA12 /* icons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icons.icns; sourceTree = "<group>"; };
+		45B8B35C17C4BD15000FEA12 /* pp_Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_Account.h; sourceTree = "<group>"; };
+		45B8B35D17C4BD15000FEA12 /* pp_Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_Account.m; sourceTree = "<group>"; };
+		45B8B35E17C4BD15000FEA12 /* pp_Commands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_Commands.h; sourceTree = "<group>"; };
+		45B8B35F17C4BD15000FEA12 /* pp_Commands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_Commands.m; sourceTree = "<group>"; };
+		45B8B36017C4BD15000FEA12 /* pp_Protein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_Protein.h; sourceTree = "<group>"; };
+		45B8B36117C4BD15000FEA12 /* pp_Protein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_Protein.m; sourceTree = "<group>"; };
+		45B8B36217C4BD15000FEA12 /* pp_ProteinData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_ProteinData.h; sourceTree = "<group>"; };
+		45B8B36317C4BD15000FEA12 /* pp_ProteinData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_ProteinData.m; sourceTree = "<group>"; };
+		45B8B36417C4BD15000FEA12 /* pp_Separation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_Separation.h; sourceTree = "<group>"; };
+		45B8B36517C4BD15000FEA12 /* pp_Separation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_Separation.m; sourceTree = "<group>"; };
+		45B8B36617C4BD15000FEA12 /* pp_SeparationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_SeparationDelegate.h; sourceTree = "<group>"; };
+		45B8B37B17C4BD98000FEA12 /* pp_TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_TextField.h; sourceTree = "<group>"; };
+		45B8B37C17C4BD98000FEA12 /* pp_TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_TextField.m; sourceTree = "<group>"; };
+		45B8B38117C4BDC3000FEA12 /* pp_StepRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_StepRecord.h; sourceTree = "<group>"; };
+		45B8B38217C4BDC3000FEA12 /* pp_StepRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_StepRecord.m; sourceTree = "<group>"; };
+		45B8B3AE17C4C387000FEA12 /* pp_GetMixtureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_GetMixtureController.h; sourceTree = "<group>"; };
+		45B8B3AF17C4C387000FEA12 /* pp_GetMixtureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_GetMixtureController.m; sourceTree = "<group>"; };
+		45B8B3B617C4C4AC000FEA12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pp_GetMixtureController.xib; sourceTree = "<group>"; };
+		45B8B40417C4CB0D000FEA12 /* pp_GetProteinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_GetProteinController.h; sourceTree = "<group>"; };
+		45B8B40517C4CB0D000FEA12 /* pp_GetProteinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_GetProteinController.m; sourceTree = "<group>"; };
+		45B8B40817C4CB5A000FEA12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pp_GetProteinController.xib; sourceTree = "<group>"; };
+		45B8B41F17C4CDFA000FEA12 /* pp_RecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_RecordView.h; sourceTree = "<group>"; };
+		45B8B42017C4CDFA000FEA12 /* pp_RecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_RecordView.m; sourceTree = "<group>"; };
+		45DE507E17C3A59300A99E81 /* pp_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_AppDelegate.m; sourceTree = "<group>"; };
+		45DE508117C3A5CE00A99E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		45DE50C717C3AA9A00A99E81 /* pp_SplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_SplashView.h; sourceTree = "<group>"; };
+		45DE50C817C3AA9A00A99E81 /* pp_SplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_SplashView.m; sourceTree = "<group>"; };
+		45DE513F17C3B71B00A99E81 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		45E0864A17CA37C80072F22A /* pp_GetFractionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_GetFractionsController.h; sourceTree = "<group>"; };
+		45E0864B17CA37C80072F22A /* pp_GetFractionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_GetFractionsController.m; sourceTree = "<group>"; };
+		45E0864C17CA37C80072F22A /* pp_GetFractionsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pp_GetFractionsController.xib; sourceTree = "<group>"; };
+		45E0865717CA3B0D0072F22A /* pp_GetFractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_GetFractionController.h; sourceTree = "<group>"; };
+		45E0865817CA3B0D0072F22A /* pp_GetFractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_GetFractionController.m; sourceTree = "<group>"; };
+		45E0865917CA3B0D0072F22A /* pp_GetFractionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pp_GetFractionController.xib; sourceTree = "<group>"; };
+		45F65BB017C510E700579E8E /* pp_ASDialogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_ASDialogController.h; sourceTree = "<group>"; };
+		45F65BB117C510E700579E8E /* pp_ASDialogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_ASDialogController.m; sourceTree = "<group>"; };
+		45F65BB417C5110E00579E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pp_ASDialogController.xib; sourceTree = "<group>"; };
+		45F65BB817C5131000579E8E /* pp_ASChoiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pp_ASChoiceController.h; sourceTree = "<group>"; };
+		45F65BB917C5131000579E8E /* pp_ASChoiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pp_ASChoiceController.m; sourceTree = "<group>"; };
+		45F65BBC17C5133300579E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pp_ASChoiceController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Protein_Purification_XCode_3_2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Protein_Purification_XCode_3_2-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Protein Purification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Protein Purification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				451A68F917C8E91E0091CCDE /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				45B8B32517C4B739000FEA12 /* Views */,
+				45B8B32617C4B745000FEA12 /* View Controllers */,
+				45B8B32817C4B794000FEA12 /* Model */,
+				45B8B32717C4B788000FEA12 /* Utils */,
+				45DE507E17C3A59300A99E81 /* pp_AppDelegate.m */,
+				451A697917C8FA8C0091CCDE /* pp_AppDelegate.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				451A68F817C8E91E0091CCDE /* QuartzCore.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Protein Purification.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Protein Purification */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Protein Purification";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Protein_Purification_XCode_3_2_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				456B28F317C7B3E3006201BD /* Help */,
+				456B27CC17C7AA43006201BD /* InfoPlist.strings */,
+				45B8B35717C4BC46000FEA12 /* icons.icns */,
+				45B8B32A17C4B802000FEA12 /* Complex Mixture.txt */,
+				45B8B32B17C4B802000FEA12 /* Default Mixture.txt */,
+				45B8B32C17C4B802000FEA12 /* Easy3 Mixture.txt */,
+				45B8B32D17C4B802000FEA12 /* Example Mixture.txt */,
+				45DE513E17C3B71B00A99E81 /* Localizable.strings */,
+				45DE508017C3A5CE00A99E81 /* MainMenu.xib */,
+				8D1107310486CEB800E47090 /* Protein_Purification_XCode_3_2-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45B8B32517C4B739000FEA12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				459FA5C717CA33D5001DCA52 /* pp_GelView.h */,
+				459FA5C817CA33D5001DCA52 /* pp_GelView.m */,
+				451A68AD17C8E37C0091CCDE /* pp_ElutionView.h */,
+				451A68AE17C8E37C0091CCDE /* pp_ElutionView.m */,
+				45B8B41F17C4CDFA000FEA12 /* pp_RecordView.h */,
+				45B8B42017C4CDFA000FEA12 /* pp_RecordView.m */,
+				45DE50C717C3AA9A00A99E81 /* pp_SplashView.h */,
+				45DE50C817C3AA9A00A99E81 /* pp_SplashView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		45B8B32617C4B745000FEA12 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				451A698917C8FC620091CCDE /* pp_AffinityController.h */,
+				451A698A17C8FC620091CCDE /* pp_AffinityController.m */,
+				451A698B17C8FC620091CCDE /* pp_AffinityController.xib */,
+				45F65BBB17C5133300579E8E /* pp_ASChoiceController.xib */,
+				45F65BB817C5131000579E8E /* pp_ASChoiceController.h */,
+				45F65BB917C5131000579E8E /* pp_ASChoiceController.m */,
+				45F65BB317C5110E00579E8E /* pp_ASDialogController.xib */,
+				45F65BB017C510E700579E8E /* pp_ASDialogController.h */,
+				45F65BB117C510E700579E8E /* pp_ASDialogController.m */,
+				451A689017C8DFE60091CCDE /* pp_GelFiltController.xib */,
+				451A688D17C8DFBE0091CCDE /* pp_GelFiltController.h */,
+				451A688E17C8DFBE0091CCDE /* pp_GelFiltController.m */,
+				45E0865917CA3B0D0072F22A /* pp_GetFractionController.xib */,
+				45E0865717CA3B0D0072F22A /* pp_GetFractionController.h */,
+				45E0865817CA3B0D0072F22A /* pp_GetFractionController.m */,
+				45E0864C17CA37C80072F22A /* pp_GetFractionsController.xib */,
+				45E0864A17CA37C80072F22A /* pp_GetFractionsController.h */,
+				45E0864B17CA37C80072F22A /* pp_GetFractionsController.m */,
+				451A696017C8F7C30091CCDE /* pp_GetGradientController.xib */,
+				451A695E17C8F7C30091CCDE /* pp_GetGradientController.h */,
+				451A695F17C8F7C30091CCDE /* pp_GetGradientController.m */,
+				451A697317C8FA0D0091CCDE /* pp_GetHICController.xib */,
+				451A697017C8F9EF0091CCDE /* pp_GetHICController.h */,
+				451A697117C8F9EF0091CCDE /* pp_GetHICController.m */,
+				45B8B3B517C4C4AC000FEA12 /* pp_GetMixtureController.xib */,
+				45B8B3AE17C4C387000FEA12 /* pp_GetMixtureController.h */,
+				45B8B3AF17C4C387000FEA12 /* pp_GetMixtureController.m */,
+				451A694517C8F6700091CCDE /* pp_GetPHController.xib */,
+				451A694217C8F6570091CCDE /* pp_GetPHController.h */,
+				451A694317C8F6570091CCDE /* pp_GetPHController.m */,
+				451A690717C8F07C0091CCDE /* pp_GetPoolController.xib */,
+				451A690517C8F07C0091CCDE /* pp_GetPoolController.h */,
+				451A690617C8F07C0091CCDE /* pp_GetPoolController.m */,
+				45B8B40717C4CB5A000FEA12 /* pp_GetProteinController.xib */,
+				45B8B40417C4CB0D000FEA12 /* pp_GetProteinController.h */,
+				45B8B40517C4CB0D000FEA12 /* pp_GetProteinController.m */,
+				456B279417C7A796006201BD /* pp_HeatDialogController.xib */,
+				456B279117C7A764006201BD /* pp_HeatDialogController.h */,
+				456B279217C7A764006201BD /* pp_HeatDialogController.m */,
+				451A692217C8F4C60091CCDE /* pp_IonExController.xib */,
+				451A691F17C8F4AF0091CCDE /* pp_IonExController.h */,
+				451A692017C8F4AF0091CCDE /* pp_IonExController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		45B8B32717C4B788000FEA12 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				45B8B37B17C4BD98000FEA12 /* pp_TextField.h */,
+				45B8B37C17C4BD98000FEA12 /* pp_TextField.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		45B8B32817C4B794000FEA12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45B8B38117C4BDC3000FEA12 /* pp_StepRecord.h */,
+				45B8B38217C4BDC3000FEA12 /* pp_StepRecord.m */,
+				45B8B35C17C4BD15000FEA12 /* pp_Account.h */,
+				45B8B35D17C4BD15000FEA12 /* pp_Account.m */,
+				45B8B35E17C4BD15000FEA12 /* pp_Commands.h */,
+				45B8B35F17C4BD15000FEA12 /* pp_Commands.m */,
+				45B8B36017C4BD15000FEA12 /* pp_Protein.h */,
+				45B8B36117C4BD15000FEA12 /* pp_Protein.m */,
+				45B8B36217C4BD15000FEA12 /* pp_ProteinData.h */,
+				45B8B36317C4BD15000FEA12 /* pp_ProteinData.m */,
+				45B8B36417C4BD15000FEA12 /* pp_Separation.h */,
+				45B8B36517C4BD15000FEA12 /* pp_Separation.m */,
+				45B8B36617C4BD15000FEA12 /* pp_SeparationDelegate.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Protein Purification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Protein Purification" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Protein Purification";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Protein Purification";
+			productReference = 8D1107320486CEB800E47090 /* Protein Purification.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = agbooth.com;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Protein Purification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				es,
+				fr,
+				id,
+				Spanish,
+				Indonesian,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Protein Purification */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Protein Purification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DE508217C3A5CE00A99E81 /* MainMenu.xib in Resources */,
+				45DE514017C3B71B00A99E81 /* Localizable.strings in Resources */,
+				45B8B32E17C4B802000FEA12 /* Complex Mixture.txt in Resources */,
+				45B8B32F17C4B802000FEA12 /* Default Mixture.txt in Resources */,
+				45B8B33017C4B802000FEA12 /* Easy3 Mixture.txt in Resources */,
+				45B8B33117C4B802000FEA12 /* Example Mixture.txt in Resources */,
+				45B8B35817C4BC46000FEA12 /* icons.icns in Resources */,
+				45B8B3B717C4C4AC000FEA12 /* pp_GetMixtureController.xib in Resources */,
+				45B8B40917C4CB5A000FEA12 /* pp_GetProteinController.xib in Resources */,
+				45F65BB517C5110E00579E8E /* pp_ASDialogController.xib in Resources */,
+				45F65BBD17C5133300579E8E /* pp_ASChoiceController.xib in Resources */,
+				456B279617C7A796006201BD /* pp_HeatDialogController.xib in Resources */,
+				456B27CE17C7AA43006201BD /* InfoPlist.strings in Resources */,
+				456B290B17C7B3E3006201BD /* Help in Resources */,
+				451A689217C8DFE60091CCDE /* pp_GelFiltController.xib in Resources */,
+				451A690917C8F07C0091CCDE /* pp_GetPoolController.xib in Resources */,
+				451A692417C8F4C60091CCDE /* pp_IonExController.xib in Resources */,
+				451A694717C8F6700091CCDE /* pp_GetPHController.xib in Resources */,
+				451A696217C8F7C30091CCDE /* pp_GetGradientController.xib in Resources */,
+				451A697517C8FA0D0091CCDE /* pp_GetHICController.xib in Resources */,
+				451A698D17C8FC620091CCDE /* pp_AffinityController.xib in Resources */,
+				45E0864E17CA37C80072F22A /* pp_GetFractionsController.xib in Resources */,
+				45E0865B17CA3B0D0072F22A /* pp_GetFractionController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				45DE507F17C3A59300A99E81 /* pp_AppDelegate.m in Sources */,
+				45DE50CC17C3AA9A00A99E81 /* pp_SplashView.m in Sources */,
+				45B8B36717C4BD15000FEA12 /* pp_Account.m in Sources */,
+				45B8B36817C4BD15000FEA12 /* pp_Commands.m in Sources */,
+				45B8B36917C4BD15000FEA12 /* pp_Protein.m in Sources */,
+				45B8B36A17C4BD15000FEA12 /* pp_ProteinData.m in Sources */,
+				45B8B36B17C4BD15000FEA12 /* pp_Separation.m in Sources */,
+				45B8B37E17C4BD98000FEA12 /* pp_TextField.m in Sources */,
+				45B8B38317C4BDC3000FEA12 /* pp_StepRecord.m in Sources */,
+				45B8B3B017C4C387000FEA12 /* pp_GetMixtureController.m in Sources */,
+				45B8B40617C4CB0D000FEA12 /* pp_GetProteinController.m in Sources */,
+				45B8B42317C4CDFA000FEA12 /* pp_RecordView.m in Sources */,
+				45F65BB217C510E700579E8E /* pp_ASDialogController.m in Sources */,
+				45F65BBA17C5131000579E8E /* pp_ASChoiceController.m in Sources */,
+				456B279317C7A764006201BD /* pp_HeatDialogController.m in Sources */,
+				451A688F17C8DFBE0091CCDE /* pp_GelFiltController.m in Sources */,
+				451A68AF17C8E37C0091CCDE /* pp_ElutionView.m in Sources */,
+				451A690817C8F07C0091CCDE /* pp_GetPoolController.m in Sources */,
+				451A692117C8F4AF0091CCDE /* pp_IonExController.m in Sources */,
+				451A694417C8F6570091CCDE /* pp_GetPHController.m in Sources */,
+				451A696117C8F7C30091CCDE /* pp_GetGradientController.m in Sources */,
+				451A697217C8F9EF0091CCDE /* pp_GetHICController.m in Sources */,
+				451A698C17C8FC620091CCDE /* pp_AffinityController.m in Sources */,
+				459FA5C917CA33D5001DCA52 /* pp_GelView.m in Sources */,
+				45E0864D17CA37C80072F22A /* pp_GetFractionsController.m in Sources */,
+				45E0865A17CA3B0D0072F22A /* pp_GetFractionController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		451A689017C8DFE60091CCDE /* pp_GelFiltController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451A689117C8DFE60091CCDE /* en */,
+				451A689317C8E0020091CCDE /* es */,
+				451A689417C8E0230091CCDE /* fr */,
+				451A689517C8E0380091CCDE /* id */,
+			);
+			name = pp_GelFiltController.xib;
+			sourceTree = "<group>";
+		};
+		451A692217C8F4C60091CCDE /* pp_IonExController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451A692317C8F4C60091CCDE /* en */,
+				451A692517C8F4E10091CCDE /* es */,
+				451A692617C8F4F80091CCDE /* fr */,
+				451A692717C8F50E0091CCDE /* id */,
+			);
+			name = pp_IonExController.xib;
+			sourceTree = "<group>";
+		};
+		451A694517C8F6700091CCDE /* pp_GetPHController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451A694617C8F6700091CCDE /* en */,
+				451A694817C8F6860091CCDE /* es */,
+				451A694917C8F69B0091CCDE /* fr */,
+				451A694A17C8F6B10091CCDE /* id */,
+			);
+			name = pp_GetPHController.xib;
+			sourceTree = "<group>";
+		};
+		451A697317C8FA0D0091CCDE /* pp_GetHICController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451A697417C8FA0D0091CCDE /* en */,
+				451A697617C8FA340091CCDE /* es */,
+				451A697717C8FA460091CCDE /* fr */,
+				451A697817C8FA5F0091CCDE /* id */,
+			);
+			name = pp_GetHICController.xib;
+			sourceTree = "<group>";
+		};
+		456B279417C7A796006201BD /* pp_HeatDialogController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456B279517C7A796006201BD /* en */,
+				456B279717C7A7C4006201BD /* es */,
+				456B279817C7A7DA006201BD /* fr */,
+				456B279917C7A7EA006201BD /* id */,
+			);
+			name = pp_HeatDialogController.xib;
+			sourceTree = "<group>";
+		};
+		456B27CC17C7AA43006201BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456B27CD17C7AA43006201BD /* en */,
+				456B27CF17C7AA5F006201BD /* es */,
+				456B27D017C7AA80006201BD /* fr */,
+				456B27D117C7AA98006201BD /* id */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		456B28F317C7B3E3006201BD /* Help */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456B28F417C7B3E3006201BD /* en */,
+				456B290C17C7B3FC006201BD /* es */,
+				456B292217C7B40D006201BD /* fr */,
+				456B293917C7B417006201BD /* id */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		45B8B3B517C4C4AC000FEA12 /* pp_GetMixtureController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45B8B3B617C4C4AC000FEA12 /* en */,
+				450F758717C6687D0097FAB1 /* es */,
+				450F758817C668970097FAB1 /* fr */,
+				450F758917C668B40097FAB1 /* id */,
+			);
+			name = pp_GetMixtureController.xib;
+			sourceTree = "<group>";
+		};
+		45B8B40717C4CB5A000FEA12 /* pp_GetProteinController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45B8B40817C4CB5A000FEA12 /* en */,
+				450F758A17C668D40097FAB1 /* es */,
+				450F758B17C668EA0097FAB1 /* fr */,
+				450F758C17C6690F0097FAB1 /* id */,
+			);
+			name = pp_GetProteinController.xib;
+			sourceTree = "<group>";
+		};
+		45DE508017C3A5CE00A99E81 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DE508117C3A5CE00A99E81 /* en */,
+				45B6BD1817C6663600C88080 /* es */,
+				45B6BD1917C6665300C88080 /* fr */,
+				45B6BD1A17C6666E00C88080 /* id */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		45DE513E17C3B71B00A99E81 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DE513F17C3B71B00A99E81 /* en */,
+				45B6BD1517C665CD00C88080 /* es */,
+				45B6BD1617C665F400C88080 /* fr */,
+				45B6BD1717C6660F00C88080 /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		45F65BB317C5110E00579E8E /* pp_ASDialogController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F65BB417C5110E00579E8E /* en */,
+				45B6BD1E17C6672C00C88080 /* es */,
+				450F758517C668400097FAB1 /* fr */,
+				450F758617C6685B0097FAB1 /* id */,
+			);
+			name = pp_ASDialogController.xib;
+			sourceTree = "<group>";
+		};
+		45F65BBB17C5133300579E8E /* pp_ASChoiceController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F65BBC17C5133300579E8E /* en */,
+				45B6BD1B17C666B100C88080 /* es */,
+				45B6BD1C17C666E500C88080 /* fr */,
+				45B6BD1D17C6670600C88080 /* id */,
+			);
+			name = pp_ASChoiceController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Protein_Purification_XCode_3_2_Prefix.pch;
+				INFOPLIST_FILE = "Protein_Purification_XCode_3_2-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = agbooth.com.ProtPureOSX;
+				PRODUCT_NAME = "Protein Purification";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Protein_Purification_XCode_3_2_Prefix.pch;
+				INFOPLIST_FILE = "Protein_Purification_XCode_3_2-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = agbooth.com.ProtPureOSX;
+				PRODUCT_NAME = "Protein Purification";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Protein Purification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Protein Purification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

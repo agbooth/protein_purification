@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Ion-exchange chromatography</title>
+<meta http-equiv="Content-Type" content="text/html; charset=macintosh" />
+    <style type="text/css" media="screen">
+        a:link {text-decoration:none;}    /* unvisited link */
+        a:visited {text-decoration:none;} /* visited link */
+        a:hover {text-decoration:underline;}   /* mouse over link */
+        a:active {text-decoration:underline;}  /* selected link */
+        </style>
+</head>
+<body link="#0000FF" vlink="#800080" bgcolor="#FFFFFF">
+<a name="ion_exchange"></a>
+<b><font face="Geneva, Arial" size="4"><p>Ion-exchange chromatography</p></font></b><font face="Geneva, Arial" size="2"> 
+<p>An ion-exchange resin consists of an insoluble matrix with charge groups covalently 
+  attached. Both positively charged and negatively charged ion exchangers are 
+  commercially available. Negatively charged exchangers bind positively charged 
+  ions (cations). They can bind one type of cation but, when presented with a second 
+  type of cation, this may displace, or exchange with, the first. Hence these 
+  resins are called cation-exchange resins. Similarly anion-exchange resins are 
+  positively charged and bind (and exchange) negatively charged ions (anions).</p>
+<p><img src="IonEx.gif" /></p>
+<p><b>A</b> &#160;&#160;Cation exchange resin with bound positive counterions</p>
+<p><b>B</b> &#160;&#160;Anion exchange resin with bound negative counterions</p>
+<p>Several side-chain groups of the amino acid residues in proteins are ionizable 
+  (e.g. lysine or glutamic acid) as are the N-terminal amino and C-terminal carboxyl 
+  groups. Therefore proteins are charged molecules. This characteristic can be 
+  used to separate different proteins by ion-exchange chromatography. The two 
+  most commonly used resins for ion-exchange chromatography of proteins are carboxymethyl-cellulose 
+  (CM-cellulose) and diethylaminoethyl-cellulose (DEAE-cellulose). These are granular 
+  celluloses which have been chemically modified. CM-cellulose is a resin where 
+  the &#151;CH<sub>2</sub>OH groups of the carbohydrate have been converted to &#151;CH<sub>2</sub>OCH<sub>2</sub>COOH groups. At neutral pH this group is ionized 
+  as &#151;CH<sub>2</sub>OCH<sub>2</sub>COO&#175; so that CM-cellulose is negatively 
+  charged, i.e. it is a cation exchanger. DEAE-cellulose contains an ionizable 
+  tertiary amine group instead. It is positively charged at neutral pH and so 
+  DEAE-cellulose is an anion exchanger. Closely related to these ion-exchange 
+  celluloses are DEAE-Sephadex and CM-Sephadex, containing the same ionizable 
+  groups covalently attached to a Sephadex bead matrix, and the covalently cross-linked 
+  agarose bead ion exchangers DEAE-Sepharose and CM-Sepharose. DEAE-cellulose 
+  is now itself also available in a bead form called DEAE-Sephacel. The Sephadex 
+  and Sepharose types are particularly useful for the separation of high molecular 
+  weight proteins. In practice, since these matrices are very similar to those 
+  used for gel filtration some molecular sieving may accompany the ion-exchange 
+  process. This may either enhance or reduce the effectiveness of the fractionation 
+  compared to using an ion-exchange cellulose. For simplicity in the computer 
+  simulation, molecular sieving is assumed not to occur during ion-exchange chromatography. 
+  Other ion-exchange resins using different ionizable groups from those described 
+  here are also commercially available. This computer simulation includes the 
+  following ion-exchange resins: CM-cellulose, DEAE-cellulose, Q-Sepharose Fast 
+  Flow and S-Sepharose Fast Flow. The charged group of Q-Sepharose is a quarternary 
+  amine which carries a non-titratable positive charge. Therefore this matrix 
+  can be used at alkaline pH values at which the positive charge of the DEAE group 
+  would have been titrated. The charged group of S-Sepharose is the sulfonyl
+  group (&#151;SO<sub>3</sub>&#175;).</p>
+<p>The fractionation of proteins by ion-exchange chromatography depends upon differences 
+  in the charge of different proteins. The charge of a protein depends upon the 
+  number and type of ionizable amino acid side chain groups. Lysine residues, 
+  for example, have a positively charged side chain group when ionized, whereas 
+  glutamic acid residues are negatively charged when ionized. Each ionizable side 
+  chain group has a distinct pK<sub>a</sub>; that is, the pH at which it is half dissociated. 
+  Therefore the overall number of charges on a particular protein at a particular 
+  pH will depend on the number and type of ionizable amino acid side chain groups 
+  it contains. Since, by definition, different proteins have different amino acid 
+  compositions, they will tend to have different charges at a given pH and so 
+  can be fractionated on this basis.</p>
+<p>For any one protein there will be a pH at which the overall number of negative 
+  charges equals the number of positive charges and so it has no net charge. This 
+  is its isoelectric point (pI), or more strictly speaking its isoionic point. 
+  At this pH the protein will not bind to any ion-exchange resin. Below this pH 
+  the protein will have a net positive charge and will bind to a cation exchanger, 
+  whilst above this pH it will have a net negative charge and bind to an anion 
+  exchanger. In principle, therefore, one could choose to use either a cation 
+  exchanger or an anion exchanger to bind the protein of interest. However, proteins 
+  are usually stable (and functionally active) only within a fairly narrow pH 
+  range so that the choice of ion exchanger is often dictated by the pH stability 
+  of the desired protein. If the protein is most stable at pH values below its 
+  pI, a cation exchanger should be used whereas if it is most stable at pH values 
+  above its pI, an anion exchanger would be chosen. Clearly, if it is stable over 
+  a wide pH range, use of either type of resin can be attempted and that which 
+  gives the best fractionation is selected.</p>
+<p>When ion-exchange resins are purchased, the ions bound to the charged groups 
+  on the resin are called 'counterions'. For CM-cellulose the counterion is usually 
+  Na<sup>+</sup> and for DEAE-cellulose the counterion is normally Cl&#175;. After 
+  choice of the appropriate resin, it is mixed with buffer to form a slurry which 
+  is poured into a suitable chromatography column. The pH of this starting buffer 
+  is crucial since it will determine the charge on the proteins to be separated. 
+  The starting buffer pH should be at least one pH unit above or below the pI 
+  of the protein to be bound to the resin to ensure adequate binding. However, 
+  bear in mind that CM-cellulose and DEAE-cellulose are examples of weak ion exchangers. 
+  A weak ion exchanger is one which is ionized over only a limited pH range. Thus 
+  DEAE-cellulose begins to lose its charge above pH 9 whilst CM-cellulose begins 
+  to lose its charge below about pH 5. The term 'weak' does not refer to the strength 
+  of binding of ions to the resin nor to the physical strength of the resin itself. 
+  With these points in mind then, the effective starting pH range when using DEAE-cellulose 
+  or CM-cellulose is only about pH 5 - 9. In addition to correct choice of the 
+  pH of the starting buffer, one should take care that its ionic strength is reasonably 
+  low since the affinity of proteins for ion-exchange resins decreases as ionic 
+  strength increases. Indeed this property is used in one method of eluting the 
+  bound proteins (see below).</p>
+<p>Once poured into the column, the bed of ion-exchange resin is washed well with 
+  starting buffer and then the protein mixture is applied. Proteins which are 
+  oppositely charged to the resin at the starting pH will bind to it, so displacing 
+  the counterions. Proteins with the same charge as the resin or with no net charge 
+  will not bind and so will flow straight through the column. The different proteins 
+  bound to the column, one of which will be the protein of interest, will have 
+  different affinities for the ion exchanger due to differences in their net charge. 
+  These affinities can be altered by varying either the pH or the ionic strength 
+  of the column buffer. Consider a set of proteins bound to the anion exchanger, 
+  DEAE-cellulose. As the pH is lowered, &#151;COO&#175; groups on the protein begin to become 
+  protonated and so lose their charge. Thus the overall negative charge of the 
+  protein will decrease and therefore so will its affinity for the resin. Different 
+  proteins will elute from the resin at different pH values as their number of 
+  negative charges decreases to a critical value. Therefore one can resolve the 
+  proteins bound to the column by slowly reducing the pH using a buffer pH gradient 
+  and collecting fractions, each of which will contain different proteins eluted 
+  at different pH values. Conversely, when using a cation exchanger, the pH gradient 
+  would be arranged to increase to elute the bound proteins.</p>
+<p>Instead of changing pH to elute proteins bound to an ion exchanger, one can 
+  increase the ionic strength of the column buffer instead. At low ionic strength, 
+  competition between the buffer ions and proteins for charged groups on the ion 
+  exchanger is minimal and so the proteins bind strongly. However, once the proteins 
+  are bound, increasing the ionic strength increases the competition and so reduces 
+  the interaction between the ion exchanger and proteins, causing the proteins 
+  to elute. One can elute the bound proteins by increasing ionic strength irrespective 
+  of whether an anion or cation exchanger was used. This is usually accomplished 
+  by incorporating a linear concentration gradient of NaCl in the column buffer 
+  while keeping the pH constant.</p>
+<p>Use of either a continuous pH gradient or a continuous salt (ionic strength) 
+  gradient will result in a high degree of protein fractionation based on protein 
+  charge. In practice one can also use stepwise elution, i.e. alter the pH or 
+  ionic strength in discrete known steps. Although technically simpler to carry 
+  out on occasions, stepwise gradients typically give poorer resolution than continuous 
+  gradient elution and so are not modelled in this program.</p>
+<p><a href="index.html">Help index</a></p>
+
+</font> 
+</body></html>

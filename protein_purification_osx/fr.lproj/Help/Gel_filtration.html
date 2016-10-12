@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=macintosh" />
+
+
+<title>La chromatographie par filtration sur gel</title>
+
+    <style type="text/css" media="screen">
+        a:link {text-decoration:none;}    /* unvisited link */
+        a:visited {text-decoration:none;} /* visited link */
+        a:hover {text-decoration:underline;}   /* mouse over link */
+        a:active {text-decoration:underline;}  /* selected link */
+        </style>
+
+</head>
+
+<body link="#0000ff" vlink="#800080" bgcolor="#ffffff">
+<a name="gel_filtration"></a>
+
+
+<b><font face="Geneva, Arial,Arial" size="4"><p>La chromatographie par filtration sur gel</p></font></b>
+
+<font face="Geneva, Arial,Arial" size="2"><p>Une large gamme de mol&#233;cules biologiques peuvent &#234;tre s&#233;par&#233;es selon les diff&#233;rences de la taille et la forme, les param&#232;tres responsable de leur capacit&#233; de penetration des matrices poreuses. Cette proc&#233;dure est nomm&#233; la chromatographie sur tamis mol&#233;culaire, ou la chromatographie d'exclusion mol&#233;culaire. Une s&#233;rie de matrices poreuses peut &#234;tre utilis&#233;e en fonction de la nature des mol&#233;cules d'&#234;tre fractionn&#233;e. Afin de la purification de prot&#233;ines, g&#233;n&#233;ralement la matrice est compos&#233; de billes poreuses d'un gel inerte et fortement hydrat&#233;, et souvant le m&#233;thode s'appele la filtration sur gel.</p>
+<p>Matrices de gel sont commercialement disponibles sont Sephadex (perles de dextrane), Sepharose, Bio-Gel A (agarose) et Bio-Gel P (polyacrylamide), tandis que d'autres mat&#233;riaux tels que les polystyr&#232;nes et des formes diverses de polyacryloylmorpholine ont &#233;galement &#233;t&#233; utilis&#233;s. Le dextrane, l'agarose et des perles de gel de polyacrylamide peuvent tous &#234;tre &#233;labor&#233;s sous formes de porosit&#233; diff&#233;rentes pour fractionner les prot&#233;ines de tailles variables. Le gels de dextran de Sephadex et de Bio-Gel P de polyacrylamide permettent la fractionnement une prot&#233;ine globulaire au poids mol&#233;culaire d'environ 800.000, alors que les gels d'agarose, en raison de leur porosit&#233; plus grande, permet de s&#233;parer les mol&#233;cules de prot&#233;ine et les complexes macromol&#233;culaires de poids mol&#233;culaire jusqu'&#224; plusieurs millions. Plus r&#233;cemment, gels du dextrane r&#233;ticul&#233; (Sephacryl) ont &#233;t&#233; commercialis&#233;s qui sont exceptionnellement rigides; ces matrices stables peuvent fractionner les prot&#233;ines de poids mol&#233;culaires jusqu'&#224; 8 millions. La rigidit&#233; et la stabilit&#233; des gels de polyacrylamide peut &#234;tre am&#233;lior&#233;e par l'addition d'agarose dans la matrice de gel. Les gels de polyacrylamide/agarose de ce type sont &#233;galement disponibles dans commercialement (Ultrogel). De nouveaux types de gels commerciales sont toujours en train d'&#234;tre &#233;labor&#233;s. Le tableau ci-dessous r&#233;sume les propri&#233;t&#233;s des matrices utilis&#233;es dans ce programme.</p>
+
+<p>&#160;</p>
+
+<b><p>Les caract&#233;ristiques des m&#233;dias de filtration sur gel utilis&#233;s dans cette simulation.</p></b>
+
+<table cellspacing="0" border="0" cellpadding="1" width="530">
+
+<tr>
+<td width="143" valign="top"><p><br />Nom de la matrice</p></td>
+<td width="144" valign="top"><p><br />Type de perle</p></td>
+<td width="237" valign="top"><p>Fourchette de fractionnement approximative des peptides et prot&#233;ines globulaires (poids mol&#233;culaire)</p></td>
+</tr>
+
+<tr>
+<td valign="top">Sephadex G-50&#185;</td>
+<td valign="top">dextrane</td>
+<td valign="top"><div align="center">1500 - 30000</div></td>
+</tr>
+
+<tr>
+<td valign="top">Sephadex G-100&#185;</td>
+<td valign="top">dextrane</td>
+<td valign="top"><div align="center">4000 - 150000</div></td>
+</tr>
+
+<tr>
+<td valign="top">Sephacryl S-200 HR&#185;</td>
+<td valign="top">dextrane/acrylamide</td>
+<td valign="top"><div align="center">5000 - 250000</div></td>
+</tr>
+
+<tr>
+<td valign="top">Ultrogel AcA 54&#178;</td>
+<td valign="top">polyacrylamide/agarose</td>
+<td valign="top"><div align="center">6000 - 70000</div></td>
+</tr>
+
+<tr>
+<td valign="top">Ultrogel AcA 44&#178;</td>
+<td valign="top">polyacrylamide/agarose</td>
+<td valign="top"><div align="center">12000 - 130000</div></td>
+</tr>
+
+<tr>
+<td valign="top">Ultrogel AcA 34&#178;</td>
+<td valign="top">polyacrylamide/agarose</td>
+<td valign="top"><div align="center">20000 - 400000</div></td>
+</tr>
+
+<tr>
+<td valign="top">Bio-Gel P-60&#179;</td>
+<td valign="top">polyacrylamide</td>
+<td valign="top"><div align="center">3000 - 60000</div></td>
+</tr>
+
+<tr>
+<td valign="top">Bio Gel P-150&#179;</td>
+<td valign="top">polyacrylamide</td>
+<td valign="top"><div align="center">15000 - 150000</div></td>
+</tr>
+
+<tr>
+<td valign="top">Bio-Gel P-300&#179;</td>
+<td valign="top">polyacrylamide</td>
+<td valign="top"><div align="center">60000 - 400000</div></td>
+</tr>
+
+</table>
+</font>
+
+<p><font face="Geneva, Arial,Arial">&#185;</font><font face="Geneva, Arial,Arial" size="1"> Sephadex<sup>&#174;</sup> et Sephacryl<sup>&#174;</sup> sont des marques d&#233;pos&#233;es de GE Healthcare Bio-Sciences AB.<br />
+
+</font><font face="Geneva, Arial,Arial">&#178;</font><font face="Geneva, Arial,Arial" size="1"> Ultrogel<sup>&#174;</sup> est une marque d&#233;pos&#233;e de BF Biotechnics, Inc.<br />
+
+</font><font face="Geneva, Arial,Arial">&#179;</font><font face="Geneva, Arial,Arial" size="1"> Bio Gel<sup>&#174;</sup> est une marque d&#233;pos&#233;e de Bio-Rad Laboratories, Inc.</font></p>
+
+<font face="Geneva, Arial,Arial" size="2"><p>Le fractionnement d'un m&#233;lange de prot&#233;ine par filtration sur gel est g&#233;n&#233;ralement r&#233;alis&#233; de cette mani&#232;re: les billes de gel, sous forme d'une suspension dans le tampon choisi, sont vers&#233;s dans une colonne chromatographique en verre ou en plastique de dimensions appropri&#233;es, et elles sont laiss&#233;es &#224; r&#233;gler par gravit&#233;. Apr&#232;s le lavage et d'&#233;quilibrage de la colonne avec le tampon seul, le m&#233;lange de prot&#233;ines dans le tampon est introduit &#224; la t&#234;te de la colonne, et l'&#233;luat est recueilli &#224; la base de la colonne comme une s&#233;rie de fractions. En traversant la colonne, les prot&#233;ines p&#233;n&#232;trent les pores de billes de gel plus au moins selon leur taille diff&#233;rentes, dont elles traversent la colonne &#224; des vitesses diff&#233;rentes. Toutes les prot&#233;ines qui d&#233;passent la taille maximale des pores seront incapables d'entrer dans les perles. Ces prot&#233;ines donc ne distribuent que dans la solution entre les billes et l'&#233;luent de la premi&#232;re colonne dans le &#171;volume d'exclusion&#187; (le volume mort). Toutes les prot&#233;ines en dessous de la taille minimale des pores &#233;quilibrent compl&#232;tement dans le tampon &#224; l'int&#233;rieur et &#224; l'ext&#233;rieur des billes de gel, et donc elles peuvent se trouver d'une part de temps &#224; l'int&#233;rieur des perles. Ces prot&#233;ines donc migrent plus lentement &#224; travers la colonne et seront les derni&#232;res d'&#234;tre &#233;lu&#233;es, ainsi que des autres petites mol&#233;cules pr&#233;sentes dans le m&#233;lange de prot&#233;ines d'origine tels que les ions de sel. Le volume total de la colonne est appel&#233; le volume du lit. Par cons&#233;quent, ces prot&#233;ines seront &#233;lu&#233;es dans un volume de tampon tr&#232;s proche du volume du lit de la colonne (bien qu'un peu moins en raison du volume physique occup&#233; par la matrice du gel elle-m&#234;me). Les tailles des pores dans les billes ne soront pas exactement identiques mais n&#233;anmoins elles existent dans une fourchette assez &#233;troite. Certaines prot&#233;ines ont de tailles tr&#232;s similaires &#224; la fourchette de taille de pores et donc elles seront excluses de certains pores, tout en entrant dans les autres. Ces prot&#233;ines de taille interm&#233;diaire seront donc en partie excluses de perles selon leurs tailles et leurs formes. Elles &#233;luent de la colonne selon leurs poids mol&#233;culaires, les plus grandes premi&#232;rement, suivies par les plus petites.</p>
+
+<p>Un choix judicieux de type de gel est important pour le fractionnement optimal de m&#233;langes de complexes prot&#233;ines. L'utilisation d'un gel de type inappropri&#233; pourrait exclure la prot&#233;ine d'int&#233;r&#234;t de billes de gel, en &#233;luant avec de nombreuses autres prot&#233;ines dans le volume mort, ou, au contraire, il pourrait laisser &#233;quilibrer les proteines dans le volume du gel et donc elle pourraient &#233;luer avec plusieurs autres prot&#233;ines de la fraction de sel pr&#232;s du volume de lit. Dans les deux cas la r&#233;solution du fractionnement n'est pas bien definie. Id&#233;alement la taille des pores de gel doit &#234;tre telle que la prot&#233;ine souhait&#233;e est en partie excluse des billes de gel; ces conditions garantient un fractionnement de types de prot&#233;ines le plus efficace. Concernant les prot&#233;ines partiellement excluses, un graphique de log (poids mol&#233;culaire de la prot&#233;ine) par rapport &#224; Kav, donne une courbe lin&#233;aire, o&#249;</p>
+
+<table cellspacing="0" border="0" width="561">
+
+<tr><td width="129" height="13" valign="top">
+
+<p>&#160;</p></td>
+
+<td width="24" height="13" valign="top">
+
+<p align="center">K<sub>av</sub></p>
+</td>
+
+<td width="14" height="13" valign="top">
+
+<p align="center">=</p>
+</td>
+
+<td width="328" height="13" valign="top">
+
+<p align="center"><u>volume d'&#233;lution - volume mort</u><br />
+le volume total de la matrice emball&#233;e - volume mort</p></td>
+
+</tr>
+
+</table>
+
+
+
+<p>&#160;</p>
+
+<b><p>Une relation lin&#233;aire entre K<sub>av</sub> et log (poids mol&#233;culaire)</p>
+
+</b><p><img src="GFGraph.gif" width="300" height="250" /></p>
+
+<p>Ainsi, une colonne peut &#234;tre calibr&#233;e avec des prot&#233;ines standardes de poids mol&#233;culaires connus, en notant leurs volumes d'&#233;lution, et ces donn&#233;es utilis&#233;es pour &#233;tablir un tel graphique. Par la suite, pendant le fractionnement du m&#233;lange de prot&#233;ines dans la m&#234;me colonne, la mesure du volume d'&#233;lution de la prot&#233;ine d'int&#233;r&#234;t permet deduire son poids mol&#233;culaire par rapport &#224; la courbe standarde. Toutefois, il faut comprendre que la forme de mol&#233;cules de prot&#233;ines joue &#233;galement un r&#244;le important dans la filtration sur gel. Les polypeptides et des prot&#233;ines de longues tendent &#224; se comporter comme si elles sont plus grandes, comme les mol&#233;cules de prot&#233;ines globulaires. Par cons&#233;quent, la courbe d'&#233;talonnage n'est aussi pr&#233;cise que la nature de prot&#233;ines standardes utilis&#233;es pour la construire permettra.</p>
+
+<p>Lors de la premi&#232;re application de filtration sur gel pour toute la purification des prot&#233;ines en question, il est de bonne pratique de fractionner le m&#233;lange de prot&#233;ines sur plusieurs matrices de gel de porosit&#233; diff&#233;rente, de recueillir les fractions et de m&#233;surer chaqu'une en teneur de prot&#233;ines et d'activit&#233; enzymatique. Empiriquement, on peut choisir alors une matrice qui donne une bonne r&#233;solution de la prot&#233;ine souhait&#233;e des autres prot&#233;ines, tout en donnant &#233;galement des informations de son poids mol&#233;culaire - les donn&#233;es qui peuvent s'av&#233;rer extr&#234;mement utiles aux &#233;tapes ult&#233;rieures de la purification.</p>
+
+<p><a href="index.html">Index de l'aide</a></p>
+</font>
+
+</body>
+</html>
+

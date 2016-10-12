@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XML_DIZ_INFO>
+    <MASTER_PAD_VERSION_INFO>
+        <MASTER_PAD_VERSION>3.10</MASTER_PAD_VERSION>
+        <MASTER_PAD_EDITOR>PAD Fab</MASTER_PAD_EDITOR>
+        <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+    </MASTER_PAD_VERSION_INFO>
+    <Company_Info>
+        <Company_Name>agbooth.com</Company_Name>
+        <Address_1>32 Oakdale</Address_1>
+        <Address_2></Address_2>
+        <City_Town>Harrogate</City_Town>
+        <State_Province>North Yorkshire</State_Province>
+        <Zip_Postal_Code>HG1 2LW</Zip_Postal_Code>
+        <Country>United Kingdom</Country>
+        <Company_WebSite_URL>http://www.agbooth.com/apps</Company_WebSite_URL>
+        <Contact_Info>
+            <Author_First_Name>Andrew</Author_First_Name>
+            <Author_Last_Name>Booth</Author_Last_Name>
+            <Author_Email>andrew@agbooth.com</Author_Email>
+            <Contact_First_Name>Andrew</Contact_First_Name>
+            <Contact_Last_Name>Booth</Contact_Last_Name>
+            <Contact_Email>apps@agbooth.com</Contact_Email>
+        </Contact_Info>
+        <Support_Info>
+            <Sales_Email>apps@agbooth.com</Sales_Email>
+            <Support_Email>apps@agbooth.com</Support_Email>
+            <General_Email>apps@agbooth.com</General_Email>
+            <Sales_Phone>+441423561873</Sales_Phone>
+            <Support_Phone>+441423561873</Support_Phone>
+            <General_Phone>+441423561873</General_Phone>
+            <Fax_Phone></Fax_Phone>
+        </Support_Info>
+    </Company_Info>
+    <Program_Info>
+        <Program_Name>Protein Purification for OS X</Program_Name>
+        <Program_Version>1.6.0.0</Program_Version>
+        <Program_Release_Month>08</Program_Release_Month>
+        <Program_Release_Day>23</Program_Release_Day>
+        <Program_Release_Year>2013</Program_Release_Year>
+        <Program_Cost_Dollars>6.00</Program_Cost_Dollars>
+        <Program_Cost_Other_Code></Program_Cost_Other_Code>
+        <Program_Cost_Other></Program_Cost_Other>
+        <Program_Type>Demo</Program_Type>
+        <Program_Release_Status>New Release</Program_Release_Status>
+        <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+        <Program_OS_Support>OS X</Program_OS_Support>
+        <Program_Language>English,French,Indonesian,Spanish</Program_Language>
+        <Program_Change_Info></Program_Change_Info>
+        <Program_Specific_Category>Education</Program_Specific_Category>
+        <Program_Category_Class>Education::Science</Program_Category_Class>
+        <Program_System_Requirements></Program_System_Requirements>
+        <File_Info>
+            <File_Size_Bytes>4179339</File_Size_Bytes>
+            <File_Size_K>4100.00</File_Size_K>
+            <File_Size_MB>4.0</File_Size_MB>
+        </File_Info>
+        <Expire_Info>
+            <Has_Expire_Info>N</Has_Expire_Info>
+            <Expire_Count></Expire_Count>
+            <Expire_Based_On></Expire_Based_On>
+            <Expire_Other_Info></Expire_Other_Info>
+            <Expire_Month></Expire_Month>
+            <Expire_Day></Expire_Day>
+            <Expire_Year></Expire_Year>
+        </Expire_Info>
+    </Program_Info>
+    <Program_Descriptions>
+        <English>
+            <Keywords>proteins,enzymes,biochemistry,chromatography,electrophoresis,simulation</Keywords>
+            <Char_Desc_45></Char_Desc_45>
+            <Char_Desc_80></Char_Desc_80>
+            <Char_Desc_250>Simulate and experiment with some of the more commonly-used protein separation techniques.</Char_Desc_250>
+            <Char_Desc_450></Char_Desc_450>
+            <Char_Desc_2000>Lectures and textbooks can cover the theoretical aspects of protein purification and laboratory classes can teach the practical techniques, but there are other topics which are difficult to learn by conventional methods. In order to purify any protein you need to know which separation techniques are likely to be most effective under the circumstances and, probably more important, which techniques are not. This knowledge cannot be picked up by following a fixed recipe for a class practical. It requires some thought and usually comes with experience, generally during postgraduate research.
+
+This is the OS X version of the award-winning program that has been widely used in schools, colleges and universities since 1983. Protein Purification's associated tutorial aims to guide you through a simulation of some of the more commonly-used protein separation techniques and to let you experiment with the simulation. It starts off by letting you examine how a simple mixture of proteins behaves during gel filtration and ion-exchange chromatography and then goes on to allow the design and testing of full purification protocols using more complex mixtures of proteins.
+
+It is assumed that you are familiar with the theoretical background to the most common separation techniques, enzyme assays etc. and that you understand the concept of the isoelectric point of proteins. The app will model failure as accurately as success - so be careful!</Char_Desc_2000>
+        </English>
+    </Program_Descriptions>
+    <Web_Info>
+        <Application_URLs>
+            <Application_Info_URL>http://www.agbooth.com/pp_java</Application_Info_URL>
+            <Application_Order_URL></Application_Order_URL>
+            <Application_Screenshot_URL>http://www.agbooth.com/pp_OSX/Image1.png</Application_Screenshot_URL>
+            <Application_Screenshot_URL>http://www.agbooth.com/pp_OSX/Image2.png</Application_Screenshot_URL>
+            <Application_Screenshot_URL>http://www.agbooth.com/pp_OSX/Image3.png</Application_Screenshot_URL>
+            <Application_Screenshot_URL>http://www.agbooth.com/pp_OSX/Image4.png</Application_Screenshot_URL>
+            <Application_Screenshot_URL>http://www.agbooth.com/pp_OSX/Image5.png</Application_Screenshot_URL>
+            <Application_Icon_URL>http://www.agbooth.com/pp_OSX/icon-512.png</Application_Icon_URL>
+            <Application_XML_File_URL>http://www.agbooth.com/pp_OSX/protein_purification_(OSX).xml</Application_XML_File_URL>
+        </Application_URLs>
+        <Download_URLs>
+            <Primary_Download_URL>http://www.agbooth.com/pp_OSX/Protpure.pkg</Primary_Download_URL>
+            <Secondary_Download_URL></Secondary_Download_URL>
+            <Additional_Download_URL_1></Additional_Download_URL_1>
+            <Additional_Download_URL_2></Additional_Download_URL_2>
+        </Download_URLs>
+    </Web_Info>
+    <Permissions>
+        <Distribution_Permissions></Distribution_Permissions>
+        <EULA>Protein Purification for OS X is written by Andrew Booth, Faculty of Biological Sciences, University of Leeds, United Kingdom.
+
+Copyright © Andrew Booth 1983-2013
+
+This product is intended to be used solely for educational purposes. It is not a research tool and should not be used as such.
+
+The product is provided by Andrew Booth and AGBOOTH.COM on an "AS IS" basis.
+ANDREW BOOTH AND AGBOOTH.COM MAKE NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, REGARDING THE PRODUCT OR ITS USE AND OPERATION IN ANY FORM, CONDITION OR CONTEXT.
+
+IN NO EVENT SHALL ANDREW BOOTH OR AGBOOTH.COM BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, MODIFICATION AND/OR DISTRIBUTION OF THE PRODUCT, HOWEVER CAUSED AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF ANDREW BOOTH OR AGBOOTH.COM HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+YOUR USE OF THE PRODUCT IMPLIES ACCEPTANCE OF THESE CONDITIONS.</EULA>
+    </Permissions>
+</XML_DIZ_INFO>

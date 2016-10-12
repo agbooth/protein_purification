@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "75F6247FB9847C81E613A7E5987A4F9ADFD8E9CD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EBABF26902CA2AF397EC0698391631F29B3556DA" : 9223372036854775807,
+    "75F6247FB9847C81E613A7E5987A4F9ADFD8E9CD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A9791FAB-4D20-4C75-A9A5-BFC28C24A739",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EBABF26902CA2AF397EC0698391631F29B3556DA" : "",
+    "75F6247FB9847C81E613A7E5987A4F9ADFD8E9CD" : "protein_purification_osx\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Protein Purification XCode 3.2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Protein Purification XCode 3.2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ivy.agbooth.com:\/home\/git\/protein_purification_OSX_3.2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "75F6247FB9847C81E613A7E5987A4F9ADFD8E9CD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:agbooth\/protein_purification.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EBABF26902CA2AF397EC0698391631F29B3556DA"
+    }
+  ]
+}

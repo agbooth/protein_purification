@@ -1,0 +1,234 @@
+﻿/* 
+  Localizable.strings
+  Protein Purification for iPad
+
+  Created by Andrew Booth on 19/07/2012.
+  Copyright (c) 2012. All rights reserved.
+*/
+
+"Registration" = "";
+"Local" = "Versi ini berwenang untuk penggunaan lokal saja.\nIni tidak akan berjalan dari drive jaringan atau media removable.\n\nJika Anda membutuhkan lisensi jaringan, silahkan email apps@agbooth.com";
+"Not registered" = "This copy is not registered.\nThe function is not available.";
+"Enter the registration code:" = "Masukkan kode registrasi:";
+"Error" = "Kesalahan";
+"The registration code is incorrect." = "Kode registrasi salah.";
+"Thank you for registering." = "Terima kasih telah mendaftar.";
+
+"Program Title" = "Pemurnian Protein";
+"Program Author" = "Andrew Booth\n\nFacultas Ilmu Biologi\nUniversitas Leeds\nUK\n\nTerjmahan oleh\nPeter Farley dan\nElly Syafriani\nFakultas Pertanian\nUniversitas Andalas\nIndonesia";
+"Help" = "Bantuan";
+"Start" = "Mulai";
+"Purify" = "Memurnikan";
+
+"Mixtures" = "Campuran";
+"Available mixtures" = "Tersedia campuran";
+"Change mixture" = "Mengubah campuran";
+"Choose a mixture" = "Pilih campuran";
+"Choose a mixture..." = "Pilih campuran...";
+"Choose a protein" = "Pilih protein";
+"Protein" = "Protein";
+"This mixture contains..." = "Campuran ini berisi %d protein.\nPilih protein yang ingin anda murnikan.";
+
+"Yes" = "Ya";
+"No" = "Tidak";
+"OK" = "OK";
+"Done" = "Selesai";
+"Cancel" = "Batalkan";
+"Choose" = "Pilih";
+"Stability" = "Stabilitas";
+"Stability Data" = "Aktivitas enzimatik dari protein %d stabil selama beberapa jam pada suhu sampai dengan %.0f°C dan pada nilai pH antara\n%.1f dan %.1f.";
+
+// Main Menu
+
+"Methods" = "Metode";
+
+"Separation methods" = "Pemisahan metode";
+"Electrophoresis" = "Elektroforesis";
+"Manage fractions" = "Mengelola fraksi";
+"Manage scheme" = "Mengelola skema";
+"Manage" = "Mengelola";
+
+"Ammonium sulfate fractionation" = "Fraksinasi Amonium Sulfat";
+"Heat treatment" = "Denaturasi Panas";
+"Gel filtration" = "Kromatografi Filtrasi Gel";
+"Ion exchange chromatography" = "Kromatografi Penukar Ion";
+"Hydrophobic interaction chromatography" = "Kromatografi Interaksi Hidrofobik";
+"Affinity chromatography" = "Kromatografi Afinitas";
+
+"1-dimensional PAGE" = "PAGE 1-dimensi";
+"2-dimensional PAGE" = "PAGE 2-dimensi";
+
+"Assay enzyme activity" = "Uji aktivitas enzim";
+"Dilute fractions x2" = "Encerkan fraksi 2x";
+"Pool fractions" = "Gabungkan fraksi";
+
+"Abandon this step and continue" = "Buang langkah ini dan lanjutkan";
+"Abandon scheme and start again" = "Buang skema ini dan mulai dari awal";
+"Abandon scheme" = "Buang skema ini";
+"Abandon warning" = "Apakah Anda benar-benar ingin melakukan ini?\n\nData dari skema saat ini akan hilang.";
+"Abandon step" = "Buang langkah ini";
+"Abandon step warning" = "Apakah Anda benar-benar ingin melakukan ini?\n\nData dari langkah saat ini akan hilang.";
+"Do you want to store your material before abandoning the scheme?" = "Apakah Anda ingin menyimpan materi Anda sebelum meninggalkan skema?";
+"Do you want to store your material before leaving?" = "Apakah Anda ingin menyimpan materi Anda sebelum berangkat?";
+
+"Media" = "Media";
+"Information" = "Informasi";
+
+// Gel Filtration Menu
+
+"Gel Filtration" = "Filtrasi Gel";
+"Sephadex G-50" = "Sephadex G-50";
+"Sephadex G-100" = "Sephadex G-100";
+"Sephacryl S-200 HR" = "Sephacryl S-200 HR";
+"Ultrogel AcA 54" = "Ultrogel AcA 54";
+"Ultrogel AcA 44" = "Ultrogel AcA 44";
+"Ultrogel AcA 34" = "Ultrogel AcA 34";
+"Bio-Gel P-60" = "Bio-Gel P-60";
+"Bio-Gel P-150" = "Bio-Gel P-150";
+"Bio-Gel P-300" = "Bio-Gel P-300";
+
+
+// Ion Exchange Menu
+"DEAE-cellulose" = "DEAE-cellulose";
+"CM-cellulose" = "CM-cellulose";
+"Q-Sepharose" = "Q-Sepharose";
+"S-Sepharose" = "S-Sepharose";
+"salt gradient" = "garam gradien";
+"pH gradient" = "pH gradien";
+
+
+// HIC menu
+"Hydrophobic interaction" = "Interaksi Hidrofobik";
+"Remember to elute with a gradient of decreasing salt concentration." = "Jangan lupa mengelusi dengan gradien konsentrasi garam yang menurun.";
+"Phenyl-Sepharose CL-4B" = "Phenyl-Sepharose CL-4B";
+"Octyl-Sepharose CL-4B" = "Octyl-Sepharose CL-4B";
+
+// Affinity chromatography menus
+"Ligand:" = "Ligan:";
+"Immobilized monoclonal antibody MC01A" = "Antibodi monoklonal amobil MC%.2dA";
+"Immobilized monoclonal antibody MC01B" = "Antibodi monoklonal amobil MC%.2dB";
+"Immobilized monoclonal antibody MC01C" = "Antibodi monoklonal amobil MC%.2dC";
+"Immobilized polyclonal IgG" = "Poliklonal IgG amobil";
+"Immobilized competitive inhibitor" = "Penghambat kompetitif imobil";
+"immobilized monoclonal antibody MC01A" = "antibodi monoklonal amobil MC%.2dA";
+"immobilized monoclonal antibody MC01B" = "antibodi monoklonal amobil MC%.2dB";
+"immobilized monoclonal antibody MC01C" = "antibodi monoklonal amobil MC%.2dC";
+"immobilized polyclonal IgG" = "poliklonal IgG amobil";
+"immobilized competitive inhibitor" = "penghambat kompetitif imobil";
+
+"Elution" = "Elusi";
+"Elute with:" = "Elusi dengan:";
+"2mM-Tris/HCl pH 7.4" = "Tris/HCl 2mM, pH 7.4";
+"0.2M-glycine/HCl pH 2.3" = "glisin/HCl 0.2M, pH 2.3";
+"5mM-competitive inhibitor" = "penghambat kompetitif 5mM";
+"Ni-NTA agarose" = "Ni-NTA agarose";
+"150mM-imidazole, 300mM-NaCl pH 7.0" = "Imidazole 150mM, NaCl 300mM, pH 7.0";
+
+// GetGradient items
+"Equilibration" = "Pengimbangan";
+"pH of buffer:" = "pH buffer:";
+"Gradient limits (molar)" = "Batas-batas gradien (molar)";
+"Gradient limits (pH)" = "Batas-batas gradien (pH)";
+"Start of gradient:" = "Mulai gradien pada:";
+"End of gradient:" = "Akhiri gradien pada:";
+
+// Precipitation warnings
+
+"Precipitate" = "Endapan";
+"Precipitation Warning 1" = "Aktivitas enzim Anda tidak terpengaruh, tetapi %.1f%% dari protein telah diendapkan dalam buffer awal.\n\nBuang endapan dan lanjutkan?";
+"Precipitation Warning 2" ="%.1f%% dari aktivitas enzim dan %.1f%% protein telah diendapkan dalam buffer awal.\n\nBuang endapan dan lanjutkan?";
+
+// Step record
+"Initial" = "Awal";
+"Ammonium sulfate" = "Amonium Sulfat";
+"Ion exchange" = "Penukar Ion";
+"Method" = "Metode";
+"Protein (mg)" = "Protein (mg)";
+"Enzyme (Units)" = "Enzim (Unit)";
+"Yield (%)" = "Hasil (%)";
+"Enrichment" = "Pemurnian";
+"Cost" = "Biaya";
+"Records of subsequent purification steps will be added here." = "Rekaman langkah pemurnian berikutnya akan ditambahkan di sini.";
+
+// Progress report
+"Progress report" = "Laporan lengkap";
+"Purification of protein %d from %@" = "Pemurnian protein %d dari %@";
+"RecordTitle" = "Setelah tahap %d:";
+"RecordMessage" = "Protein Total: \t\t\t%.1f mg\nEnzim Total: \t\t\t%.1f Unit\nTingkat kemurnian: \t\t%.1f\nHasil: \t\t\t\t%.1f%%\nBiaya: \t\t\t\t%.3f jam/100 Unit";
+"Total protein\nTotal enzyme\nEnrichment\nYield\nCost (hours/100 Units)" = "Protein Total\nEnzim Total\nTingkat kemurnian\nHasil\nBiaya (jam/100 Unit)";
+"%.d mg\n%d Unit\n%.1f\n%.1f%%\n%.3f" = "%.d mg\n%d units\n%.1f\n%.1f%%\n%.3f";
+
+// Elution profile
+"Elution profile" = "Profil elusi";
+"Absorbance at 280 nm" = "Absorbsi pada panjang gelombang 280 nm";
+"Enzyme activity (Units/fraction)" = "Aktivitas Enzim (Unit/fraksi)";
+"Fraction number" = "Fraksi nomor";
+"%@ on %@" = "%@ pada %@";
+"Salt concentration (molar)" = "Konsentrasi garam (molar)";
+"pH" = "pH";
+
+// Pool fractions
+"First fraction:" = "Fraksi pertama:";
+"Last fraction:" = "Fraksi terakhir:";
+
+// Affinity chromatography
+"Sorry" = "Maaf";
+"Apology" = "Walau terdapat beberapa penghambat kompetitif terhadap enzim yang sedang dimurnikan, belum ada metode untuk membuat penghambat tersebut imobil.";
+"(Elution buffer emerges at fraction 40)" = "(Bufer elusi muncul pada fraksi 40)";
+
+// Ammonium sulphate
+"Percentage saturation" = "Persentase saturasi?";
+"AS Precipitation Question" = "Anda telah mengendapkan\n%.1f%% enzim itu dan\n%.1f%% proteinnya.\n\nBagaimana cara anda melanjutkan proses ini?";
+"Use the precipitated material" = "Gunakan bahan yang diendapkan";
+"Use the soluble material" = "Gunakan bahan yang terlarut";
+
+// Heat treatment
+"What temperature? (°C)" = "Suhu berapa? (°C)";
+"For how long? (minutes)" = "Berapa lama? (menit)";
+
+// Oops
+"You have lost the enzyme!" = "Anda kehilangan enzimnya!";
+"Not finished after 10 steps..." = "Masih belum selesai setelah 10 tahap ...";
+"Cost is too high!" = "Biayanya terlalu mahal!";
+"Financial advisers" = "Pesan dari penasihat keuangan kami:\n\n\"Kami tidak dapat lagi mendanai pekerjaan anda yang tidak efesien itu. Anda dipecat.\"\n\nNamun, kepala bagian ilmu alam telah menangani masalah anda. Jika anda dapat menjamin bahwa anda akan bekerja lebih efisien lagi, anda boleh kembali. Apakah anda ingin menerima tawaran ini?";
+"Grateful acceptance" = "Ya";
+
+// Electrophoresis
+"2D - PAGE" = "PAGE - 2D";
+"Coomassie Blue" = "Pewarna protein";
+"Immunoblot" = "Imunoblot";
+"Using antibody to protein %d" = "Imunoblot menggunakan antibodi untuk protein %d";
+"2D - PAGE of initial mixture" = "Hasil PAGE-2D dari campuran awal";
+"2D - PAGE of pooled fractions" = "Hasil PAGE-2D dari fraksi yang digabungkan";
+"2D - PAGE of fraction %d" = "Hasil PAGE-2D dari fraksi nomor %d";
+"Select the fraction to examine." = "Pilih fraksi yang akan diperiksa.";
+"Fraction" = "Fraksi";
+"1D - PAGE" = "PAGE - 1D";
+"Initial mixture" = "Campuran awal";
+"Pooled fractions" = "Fraksi yang digabungkan";
+"Selected fraction" = "Fraksi yang dipilih";
+"Selected fractions" = "Fraksi-fraksi yang dipilih";
+"You can select up to 15 fractions." = "Anda dapat memilih sampai 15 fraksi.";
+"You have added one fraction." = "Anda telah menambahkan satu fraksi.";
+"You have added %d fractions." = "Anda telah menambahkan %d fraksi";
+"Add" = "Tambah";
+
+// Coldroom
+"Store your material" = "Simpan bahan anda";
+"Store material" = "Simpan bahan";
+"Please enter a unique name for the stored material." = "Masukkan nama yang unik untuk materi yang tersimpan.";
+"Can't store the material." = "Tidak dapat menyimpan materail yang";
+"A mixture with this name exists.\nDo you want to replace it?" = "Campuran dengan nama yang sama.\nApakah Anda ingin menggantinya?";
+"Start from stored material" = "Mulai dari bahan yang disimpan";
+"You have no stored mixtures." = "Anda tidak memiliki disimpan campuran.";
+"Choose a stored mixture" = "Pilih campuran yang tersimpan";
+"Refrigerator" = "Kulkas";
+"Stored mixtures" = "Tersimpan campuran";
+"Stored mixtures are accessible via the apps tab in iTunes." = "Campuran yang disimpan dapat diakses melalui tab aplikasi di iTunes.";
+"This mixture has a purification history. Do you want to continue it?" = "Campuran ini memiliki sejarah pemurnian. Apakah Anda ingin melanjutkan dengan itu?";
+"This mixture contains no proteins." = "Campuran ini tidak mengandung protein.";
+"Error in mixture file." = "Kesalahan dalam file campuran.";
+
+// Tutorial
+"tutorial" = "http://www.agbooth.com/pp_tut_OSX/in/Protein1.html";
+

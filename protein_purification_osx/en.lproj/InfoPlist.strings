@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Protein Purification
+
+  Created by Andrew Booth on 31/07/2013.
+  Copyright (c) 2013 Andrew Booth. All rights reserved.
+*/
+"CFBundleDisplayName" = "Purification";
+"CFBundleName" = "Protein Purification";

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1060" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="494" id="495"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <menu title="AMainMenu" systemMenu="main" autoenablesItems="NO" id="29">
+            <items>
+                <menuItem title="La Purification des Protéines" id="56">
+                    <menu key="submenu" title="La Purification des Protéines" systemMenu="apple" id="57">
+                        <items>
+                            <menuItem title="À propos de La Purification des Protéines" id="58">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="642"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="236">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="Préférences…" keyEquivalent="," id="129"/>
+                            <menuItem isSeparatorItem="YES" id="143">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="Services" id="131">
+                                <menu key="submenu" title="Services" systemMenu="services" id="130"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="144">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="Masquer La Purification des Protéines" keyEquivalent="h" id="134">
+                                <connections>
+                                    <action selector="hide:" target="-1" id="367"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Masquer les autres" keyEquivalent="h" id="145">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="hideOtherApplications:" target="-1" id="368"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Tout afficher" id="150">
+                                <connections>
+                                    <action selector="unhideAllApplications:" target="-1" id="370"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="149">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="Quitter La Purification des Protéines" keyEquivalent="q" id="136">
+                                <connections>
+                                    <action selector="terminate:" target="-3" id="449"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Commencer" id="83">
+                    <menu key="submenu" title="Commencer" autoenablesItems="NO" id="81">
+                        <items>
+                            <menuItem title="Choisir un mélange..." keyEquivalent="o" id="82">
+                                <attributedString key="attributedTitle"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="586"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Abandonner régime..." tag="1" enabled="NO" keyEquivalent="q" id="72">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="587"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Abandonner cette étape..." tag="2" enabled="NO" keyEquivalent="q" id="124">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="-1" id="582"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="79">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="Enregistrer votre matériau..." tag="3" enabled="NO" keyEquivalent="s" id="73">
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="588"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Commencer à partir de matériau enregistré..." tag="4" keyEquivalent="o" id="75">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="589"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Séparation" id="217">
+                    <menu key="submenu" title="Séparation" autoenablesItems="NO" id="205">
+                        <items>
+                            <menuItem title="Fractionnement par le sulfate d'ammonium..." enabled="NO" keyEquivalent="a" id="207">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="591"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Fractionnement par la chaleur..." enabled="NO" keyEquivalent="c" id="215">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="593"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Chromatographie par filtration sur gel..." enabled="NO" keyEquivalent="g" id="199">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="595"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Chromatographie par échange d'ions..." enabled="NO" keyEquivalent="x" id="197">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="597"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Chromatographie par interactions hydrophobes..." enabled="NO" keyEquivalent="y" id="203">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="599"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Chromatographie d'affinité..." enabled="NO" keyEquivalent="f" id="485">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="601"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Électrophorèse" id="375">
+                    <menu key="submenu" title="Électrophorèse" autoenablesItems="NO" id="376">
+                        <items>
+                            <menuItem title="PAGE en une dimension" enabled="NO" keyEquivalent="1" id="377">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="613"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="PAGE en deux dimensions" enabled="NO" keyEquivalent="2" id="496">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="615"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="604"/>
+                            <menuItem title="Bleu de Coomassie" enabled="NO" keyEquivalent="b" id="603">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="617"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Immunotransfert" enabled="NO" keyEquivalent="i" id="605">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="619"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="606"/>
+                            <menuItem title="Masquer gel" enabled="NO" keyEquivalent="w" id="607">
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="621"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Masquer Immunotransfert" hidden="YES" enabled="NO" keyEquivalent="w" id="623">
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="624"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Fractions" id="295">
+                    <menu key="submenu" title="Fractions" autoenablesItems="NO" id="296">
+                        <items>
+                            <menuItem title="Dosage enzymatique" enabled="NO" keyEquivalent="e" id="297">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="626"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Diluer fractions x2" enabled="NO" keyEquivalent="u" id="298">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="628"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Combiner des fractions..." enabled="NO" keyEquivalent="p" id="608">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="630"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Aide" id="490">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Aide" systemMenu="help" autoenablesItems="NO" id="491">
+                        <items>
+                            <menuItem title="Aide La Purification des Protéines" keyEquivalent="?" id="492">
+                                <connections>
+                                    <action selector="showHelp:" target="-1" id="493"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Exercices dirigés en ligne" keyEquivalent="t" id="609">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
+                                <connections>
+                                    <action selector="dispatch:" target="494" id="633"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+            </items>
+        </menu>
+        <window title="Protein Purification" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+            <rect key="contentRect" x="335" y="390" width="1024" height="748"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
+            <view key="contentView" id="372">
+                <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </view>
+        </window>
+        <customObject id="494" customClass="pp_AppDelegate">
+            <connections>
+                <outlet property="item1DPAGE" destination="377" id="614"/>
+                <outlet property="item2DPAGE" destination="496" id="616"/>
+                <outlet property="itemAbandonScheme" destination="72" id="560"/>
+                <outlet property="itemAbandonStep" destination="124" id="561"/>
+                <outlet property="itemAbout" destination="58" id="641"/>
+                <outlet property="itemAffinity" destination="485" id="602"/>
+                <outlet property="itemAmmoniumSulfate" destination="207" id="592"/>
+                <outlet property="itemAssayEnzyme" destination="297" id="627"/>
+                <outlet property="itemChooseMixture" destination="82" id="579"/>
+                <outlet property="itemCoomassie" destination="603" id="618"/>
+                <outlet property="itemDiluteFractions" destination="298" id="629"/>
+                <outlet property="itemGelFiltration" destination="199" id="596"/>
+                <outlet property="itemHeatTreatment" destination="215" id="594"/>
+                <outlet property="itemHideBlot" destination="623" id="625"/>
+                <outlet property="itemHideGel" destination="607" id="622"/>
+                <outlet property="itemHydrophobic" destination="203" id="600"/>
+                <outlet property="itemImmunoblot" destination="605" id="620"/>
+                <outlet property="itemIonExchange" destination="197" id="598"/>
+                <outlet property="itemPoolFractions" destination="608" id="631"/>
+                <outlet property="itemShowHelp" destination="492" id="632"/>
+                <outlet property="itemStart" destination="83" id="639"/>
+                <outlet property="itemStartStored" destination="75" id="563"/>
+                <outlet property="itemStoreMaterial" destination="73" id="562"/>
+                <outlet property="itemTutorial" destination="609" id="634"/>
+                <outlet property="menuHelp" destination="491" id="643"/>
+                <outlet property="menuStart" destination="81" id="640"/>
+                <outlet property="window" destination="371" id="532"/>
+            </connections>
+        </customObject>
+        <customObject id="420" customClass="NSFontManager"/>
+        <userDefaultsController representsSharedInstance="YES" id="544"/>
+    </objects>
+</document>
