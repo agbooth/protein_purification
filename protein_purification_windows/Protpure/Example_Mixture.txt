@@ -1,0 +1,52 @@
+//The first non-comment line must contain the number of proteins in this mixture 
+//and nothing else.
+//
+6
+//
+//The subsequent lines contain the data for each protein in the mixture.
+//Each line must contain only comma-separated numbers with no white space or breaks.
+//On each line the fields are as follows:
+// Fields 1-7 contain the total numbers of ASP,GLU,HIS,LYS,ARG,TYR and CYS-SH
+// residues respectively in the whole protein molecule (i.e aggregated over
+// all polypeptide chains). These data are used to calculate the protein's charge
+// at any pH value, and hence also to calculate the isoelectric point.
+// Field 3 is negative and less than -5 if a His tag is present.
+// Field 8 contains the overall native molecular weight of the protein.
+// Each protein can have up to three different polypeptide chains.
+// Field 9 contains the number of polypeptides of type 1. This must always be greater than zero.
+// Field 10 contains the number of polypeptides of type 2 if any or zero if not.
+// Field 11 contains the number of polypeptides of type 3 if any or zero if not.
+// Field 12 contains the molecular weight of polypeptide type 1. This cannot be zero.
+// Field 13 contains the molecular weight of polypeptide type 2 
+//   or zero if there is only one type of polypeptide.
+// Field 14 contains the molecular weight of polypeptide type 3 
+//   or zero if there is only one type of polypeptide.
+// Field 15 contains the amount (in mg) of this protein in the initial mixture
+// Field 16 contains the amount (in mg) of this protein in the mixture in its
+//   current state.  This is to allow partially purified mixtures to be saved and
+//   reloaded. When designing a mixture, set this field to the same value as field 15.
+// Field 17 contains the temperature below which the enzyme activity is stable.
+// Fields 18 and 19 contain the pH values between which the enzyme activity is stable
+// Field 20 contains a number which sets the 'surface hydrophilicity'. This is
+//   used to set the behaviour of the protein during ammonium sulfate fractionation
+//   and hydrophobic interaction chromatography.
+// Field 21 contains an integer which represents the initial specific enzymic activity
+//   of the protein.
+// Field 22 contains an in teger which represents the current specific activity.
+//   This will normally be the same as the value of field 21.
+//
+// Comment lines must begin with //.
+// Blank lines are not allowed.
+// Be careful - there is almost no value/error checking done on these values.
+// The usual disclaimers apply.
+//
+//                                                Andrew Booth 15th July 2002
+//
+// These are the data for the example mixture:
+//
+10,10,0,10,0,0,0,200000,1,0,0,200000,0,0,10,10,40,2.5,11.5,155,2,2
+10,10,4,10,0,0,0,100000,1,0,0,100000,0,0,10,10,40,2.5,11.5,155,2,2
+10,10,8,10,0,0,0,50000,1,0,0,50000,0,0,10,10,40,2.5,11.5,155,2,2
+10,10,12,10,0,0,0,25000,1,0,0,25000,0,0,10,10,40,2.5,11.5,155,2,2
+10,10,16,10,0,0,0,12500,1,0,0,12500,0,0,10,10,40,2.5,11.5,155,2,2
+10,10,20,10,0,0,0,7414,1,0,0,7414,0,0,10,10,40,2.5,11.5,155,2,2

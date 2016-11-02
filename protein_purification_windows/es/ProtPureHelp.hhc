@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="General">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Escenario">
+			<param name="Local" value="Scenario.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Comenzando">
+			<param name="Local" value="Getting_started.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Estrategia">
+			<param name="Local" value="Strategy.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Costos">
+			<param name="Local" value="Costs.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Acerca de Purificaci&oacute;n de Prote&iacute;nas ">
+			<param name="Local" value="About.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Los m&eacute;todos de an&aacute;lisis">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SDS-PAGE">
+			<param name="Local" value="SDS.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Isoelectroenfoque">
+			<param name="Local" value="IEF.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="2D PAGE Electroforesis">
+			<param name="Local" value="2D.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Los m&eacute;todos preparativos">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Fraccionamiento con sulfato de Amonio">
+			<param name="Local" value="Ammonium_sulfate.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tratamiento con calor">
+			<param name="Local" value="Heat_treatment.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Filtraci&oacute;n por gel">
+			<param name="Local" value="Gel_filtration.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Cromatograf&iacute;a de Intercambio i&oacute;nico">
+			<param name="Local" value="Ion_Exchange.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Cromatograf&iacute;a de interacci&oacute;n hidrof&oacute;bica">
+			<param name="Local" value="HIC.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Cromatograf&iacute;a de Afinidad">
+			<param name="Local" value="Affinity.html">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

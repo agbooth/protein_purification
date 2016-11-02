@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="G&eacute;n&eacute;ral">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Sc&eacute;nario">
+			<param name="Local" value="Scenario.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="D&eacute;marrage">
+			<param name="Local" value="Getting_started.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Strat&eacute;gie">
+			<param name="Local" value="Strategy.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Les Frais">
+			<param name="Local" value="Costs.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Agrave; propos de La Purification des Prot&eacute;ines">
+			<param name="Local" value="About.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Les m&eacute;thodes d'analyse">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="SDS-PAGE">
+			<param name="Local" value="SDS.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Focalisation iso&eacute;lectrique">
+			<param name="Local" value="IEF.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="L'&eacute;lectrophor&egrave;se bidimensionnelle sur gel">
+			<param name="Local" value="2D.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Les m&eacute;thodes de pr&eacute;paration">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Fractionnement par sulfate d'ammonium">
+			<param name="Local" value="Ammonium_sulfate.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Fractionnement par la chaleur">
+			<param name="Local" value="Heat_treatment.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="La chromatographie par  filtration sur gel">
+			<param name="Local" value="Gel_filtration.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="La chromatographie par &eacute;change d'ions">
+			<param name="Local" value="Ion_Exchange.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="La chromatographie par interactions hydrophobes">
+			<param name="Local" value="HIC.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="La chromatographie d'affinit&eacute;">
+			<param name="Local" value="Affinity.html">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

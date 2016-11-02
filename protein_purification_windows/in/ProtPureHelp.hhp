@@ -1,0 +1,63 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=ProtPure_IN.chm
+Contents file=ProtPureHelp.hhc
+Default topic=Scenario.html
+Display compile progress=No
+Language=0x421 Indonesian (Indonesia)
+Title=Bantuan Pemurnian Protein
+
+
+[FILES]
+Strategy.html
+SDS.html
+Scenario.html
+Ion_Exchange.html
+IEF.html
+HIC.html
+Heat_treatment.html
+Getting_started.html
+Gel_filtration.html
+Costs.html
+Ammonium_sulfate.html
+Affinity.html
+About.html
+2D.html
+SDS.gif
+IonEx.gif
+GFGraph.gif
+
+[ALIAS]
+IDH_2D=2D.html
+IDH_ABOUT=About.html
+IDH_AFFINITY=Affinity.html
+IDH_AMMONIUM=Ammonium_sulfate.html
+IDH_COSTS=Costs.html
+IDH_GELFILT=Gel_filtration.html
+IDH_GETSTART=Getting_started.html
+IDH_HEAT=Heat_treatment.html
+IDH_HIC=HIC.html
+IDH_IEF=IEF.html
+IDH_IONEX=Ion_Exchange.html
+IDH_SCENARIO=Scenario.html
+IDH_SDS=SDS.html
+IDH_STRATEGY=Strategy.html
+
+[MAP]
+#define	IDH_2D			101
+#define IDH_ABOUT		102
+#define	IDH_AFFINITY	103
+#define IDH_AMMONIUM	104
+#define	IDH_COSTS		105
+#define	IDH_GELFILT		106
+#define	IDH_GETSTART	107
+#define	IDH_HEAT		108
+#define	IDH_HIC			109
+#define IDH_IEF			110
+#define IDH_IONEX		111
+#define IDH_SCENARIO	112
+#define IDH_SDS			113
+#define	IDH_STRATEGY	114
+
+[INFOTYPES]
+
