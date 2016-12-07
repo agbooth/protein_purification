@@ -67,7 +67,6 @@
 @property (nonatomic, assign) NSColor* bgColor;
 @property (nonatomic) float duration;
 @property (nonatomic) Boolean windowClosed;
-@property (nonatomic) Boolean Registered;
 
 
 @property (retain) IBOutlet NSMenu *menuStart;

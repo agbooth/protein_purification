@@ -158,20 +158,6 @@ NSString *fileString;
 
 - (void) start_stored
 {
-    if (!app.Registered)
-    {
-        NSAlert* alert = [[NSAlert alloc] init];
-        [alert addButtonWithTitle:NSLocalizedString(@"OK",@"")];
-        [alert setAlertStyle:NSCriticalAlertStyle];
-        [alert setMessageText:NSLocalizedString(@"Sorry",@"")];
-        [alert setInformativeText:NSLocalizedString(@"Not registered",@"")];
-        [alert.window setBackgroundColor:app.bgColor];
-        [alert runModal];
-        
-        return;
-        
-    }
-    
     // Create a File Open Dialog class.
     NSOpenPanel* openDlg = [NSOpenPanel openPanel];
     
@@ -343,20 +329,6 @@ NSString *fileString;
 
 - (Boolean) store_command
 {
-    if (!app.Registered)
-    {
-        NSAlert* alert = [[NSAlert alloc] init];
-        [alert addButtonWithTitle:NSLocalizedString(@"OK",@"")];
-        [alert setAlertStyle:NSCriticalAlertStyle];
-        [alert setMessageText:NSLocalizedString(@"Sorry",@"")];
-        [alert setInformativeText:NSLocalizedString(@"Not registered",@"")];
-        [alert.window setBackgroundColor:app.bgColor];
-        [alert runModal];
-        
-        return NO;
-        
-    }
-    
     NSSavePanel* savePanel = [NSSavePanel savePanel];
     NSArray* allowedTypes = [NSArray arrayWithObject:@"ppmixture"];
     [savePanel setAllowedFileTypes:allowedTypes];
@@ -1260,33 +1232,6 @@ NSString *fileString;
 
 - (void) doPoolFractions
 {
-    
-    if (!app.Registered)
-    {
-        NSAlert* alert = [[NSAlert alloc] init];
-        [alert addButtonWithTitle:NSLocalizedString(@"OK",@"")];
-        [alert setAlertStyle:NSCriticalAlertStyle];
-        [alert setMessageText:NSLocalizedString(@"Sorry",@"")];
-        [alert setInformativeText:NSLocalizedString(@"Not registered",@"")];
-        [alert.window setBackgroundColor:app.bgColor];
-        [alert runModal];
-        
-        pp_RecordView* rv = [[[pp_RecordView alloc] initWithFrame: ((NSView*)app.window.contentView).bounds] autorelease];
-        [app changeToView:rv];
-        
-        self.hasFractions = NO;
-        self.pooled = YES;
-        self.overDiluted = NO;
-        self.assayed = NO;
-        self.scale = 0.5;
-        [self.frax removeAllObjects];
-        [self activateFractionsMenu:NO];
-        [self activateSeparationMenu:YES];
-        [app.itemAbandonStep setEnabled:NO];
-        
-        return;
-    }
-    
     [app.separation PoolFractionsFrom:startOfPool To:endOfPool];
     
     [app.account addStepRecord];
